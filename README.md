@@ -9,7 +9,7 @@ This repository contains examples used in the *High-Performance GPU Programming 
 
 #### Example 1: Example C++ Program
 
-**Path**: [sec01/ex01](sec01/ex01)
+**Path**: [sec_01/ex_01](sec_01/ex_01)
 
 **Video**: Section 1, Video 3
 
@@ -19,7 +19,7 @@ This repository contains examples used in the *High-Performance GPU Programming 
 
 ### Example 1: pthread Creation and Synchronization
 
-**Path**: [sec02/ex01](sec02/ex01)
+**Path**: [sec_02/ex_01](sec_02/ex_01)
 
 **Video**: Section 2, Video 2
 
@@ -27,7 +27,7 @@ This repository contains examples used in the *High-Performance GPU Programming 
 
 ### Example 2: Passing Arguments to pthreads
 
-**Path**: [sec02/ex02](sec02/ex02)
+**Path**: [sec_02/ex_02](sec_02/ex_02)
 
 **Video**: Section 2, Video 3
 

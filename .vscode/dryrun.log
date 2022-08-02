@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/yifan/dev/src/github.com/syifan/hip_programming_examples'
+make: Leaving directory `/Users/yifan/dev/src/github.com/syifan/hip_programming_examples'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
