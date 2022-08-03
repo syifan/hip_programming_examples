@@ -40,7 +40,7 @@ This repository contains examples used in the *High-Performance GPU Programming 
 
 **Video**: Section 2, Video 4
 
-**Description**: This example demonstrates how to use mutex to avoid data races. 
+**Description**: This example demonstrates how to use mutex and atomics to avoid data races. You can change the pthread creation function to switch the method.
 
 ### Example 4: Calculating PI with pthreads
 

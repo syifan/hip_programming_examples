@@ -8,7 +8,7 @@ struct accumulate_args {
   int count;
 };
 
-void *accumulate(void *args) {
+void *accumulate_mutex(void *args) {
   struct accumulate_args *p = (struct accumulate_args *)args;
   for (int i = 0; i < p->count; i++) {
     pthread_mutex_lock(&mutex);
