@@ -8,11 +8,15 @@
 // - argv[3] - number of threads, number of threads to be used in parallel
 // version of Monte Carlo method.
 
+#define __STDC_FORMAT_MACROS
 #include <locale.h>
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdint.h>
+#include <inttypes.h>
+#include <time.h>
 
 void print_usage(int argc, char *argv[]) {
   printf("Usage: %s <N> <serial|parallel>\n", argv[0]);
@@ -26,18 +30,21 @@ void print_usage(int argc, char *argv[]) {
 
 uint64_t current_time_in_ns() {
   struct timespec ts;
-  clock_gettime(CLOCK_REALTIME, &ts);
+  clock_gettime(CLOCK_MONOTONIC, &ts);
   return ts.tv_sec * 1000000000 + ts.tv_nsec;
 }
 
 double monte_carlo_pi_serial(int n) {
+  uint32_t seed;
   double x, y;
   double pi = 0;
 
+  seed = current_time_in_ns();
+
   for (int i = 0; i < n; i++) {
     // Generate random numbers between -1 and 1.
-    x = (double)rand() / RAND_MAX * 2 - 1;
-    y = (double)rand() / RAND_MAX * 2 - 1;
+    x = (double)rand_r(&seed) / RAND_MAX * 2 - 1;
+    y = (double)rand_r(&seed) / RAND_MAX * 2 - 1;
     if (x * x + y * y <= 1) {
       pi++;
     }
@@ -55,9 +62,13 @@ struct monte_carlo_pi_args {
 void *monte_carlo_pi_thread(void *data) {
   struct monte_carlo_pi_args *args = (struct monte_carlo_pi_args *)data;
 
-  printf("Thread started, n=%d.\n", args->n);
+  printf("Thread started, n=%d, time=%'"PRIu64"\n", 
+    args->n, current_time_in_ns());
 
   args->pi = monte_carlo_pi_serial(args->n);
+
+  printf("Thread ended, time=%'"PRIu64"\n", 
+    current_time_in_ns());
   return NULL;
 }
 
@@ -160,7 +171,7 @@ int main(int argc, char *argv[]) {
   }
 
   printf("PI = %.10f\n", pi);
-  printf("Time = %'llu ns\n", end_time - start_time);
+  printf("Time = %'"PRIu64" ns\n", end_time - start_time);
 
   return 0;
 }
