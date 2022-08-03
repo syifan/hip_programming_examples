@@ -49,3 +49,19 @@ This repository contains examples used in the *High-Performance GPU Programming 
 **Video**: Section 2, Video 5
 
 **Description**: This example demonstrates how to calculate PI in parallel. 
+
+### Example 5: C++ Threads
+
+**Path**: [sec_02/ex_05](sec_02/ex_05)
+
+**Video**: Section 2, Video 6
+
+**Description**: This example demonstrates how to use C++ threads.
+
+### Example 6: MPI Threads
+
+**Path**: [sec_02/ex_06](sec_02/ex_06)
+
+**Video**: Section 2, Video 7
+
+**Description**: This example demonstrates how to use MPI threads.

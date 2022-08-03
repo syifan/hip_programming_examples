@@ -61,14 +61,7 @@ struct monte_carlo_pi_args {
 
 void *monte_carlo_pi_thread(void *data) {
   struct monte_carlo_pi_args *args = (struct monte_carlo_pi_args *)data;
-
-  printf("Thread started, n=%d, time=%'"PRIu64"\n", 
-    args->n, current_time_in_ns());
-
   args->pi = monte_carlo_pi_serial(args->n);
-
-  printf("Thread ended, time=%'"PRIu64"\n", 
-    current_time_in_ns());
   return NULL;
 }
 
