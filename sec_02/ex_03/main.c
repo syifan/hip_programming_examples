@@ -19,14 +19,23 @@ void *accumulate(void *args) {
   return NULL;
 }
 
+void *accumulate_atomic(void *args) {
+  struct accumulate_args *p = (struct accumulate_args *)args;
+  for (int i = 0; i < p->count; i++) {
+    __sync_fetch_and_add(&total_count, 1);
+  }
+
+  return NULL;
+}
+
 int main() {
   pthread_t thread1, thread2;
 
   struct accumulate_args args1 = {10000};
   struct accumulate_args args2 = {15000};
 
-  pthread_create(&thread1, NULL, accumulate, &args1);
-  pthread_create(&thread2, NULL, accumulate, &args2);
+  pthread_create(&thread1, NULL, accumulate_atomic, &args1);
+  pthread_create(&thread2, NULL, accumulate_atomic, &args2);
 
   pthread_join(thread1, NULL);
   pthread_join(thread2, NULL);
