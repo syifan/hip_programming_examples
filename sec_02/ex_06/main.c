@@ -3,7 +3,7 @@
 
 int main(int argc, char** argv) {
   // Initialize the MPI environment
-  MPI_Init(argc, argv);
+  MPI_Init(&argc, &argv);
 
   // Get the number of processes
   int world_size;
