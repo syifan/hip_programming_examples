@@ -1,0 +1,2 @@
+"Name","Calls","TotalDurationNs","AverageNs","Percentage"
+"vector_add(float*, float*, float*, int)",1,2798357,2798357,100.0
