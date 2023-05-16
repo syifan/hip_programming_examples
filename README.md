@@ -65,3 +65,103 @@ This repository contains examples used in the *High-Performance GPU Programming 
 **Video**: Section 2, Video 7
 
 **Description**: This example demonstrates how to use MPI threads.
+
+### Section 3: HIP Programming 1
+
+### Example 1: HIP Hello World
+
+**Path**: [sec_03/ex_01](sec_03/ex_01)
+
+**Video**: Section 3, Video 1
+
+**Description**: This example demonstrates an example of Hello World program on a HIP-compatible GPU.
+
+### Example 2: Vector Addition
+
+**Path**: [sec_03/ex_02](sec_03/ex_02)
+
+**Video**: Section 3, Video 4
+
+**Description**: This example demonstrates an example of Vector Addition program in HIP. 
+
+### Example 3: Matrix Multiplication
+
+**Path**: [sec_03/ex_03](sec_03/ex_03)
+
+**Video**: Section 3, Video 5
+
+### Section 4: HIP Programming 2
+
+### Example 1: Struct
+
+**Path**: [sec_04/ex_01](sec_04/ex_01/)
+
+**Video**: Section 4, Video 3
+
+**Description**: This example demonstrates the calculation of distance to the origin in HIP using the concept of a struct. 
+
+### Example 2: HIP Stream
+
+**Path**: [sec_04/ex_02](sec_04/ex_02)
+
+**Video**: Section 4, Video 4
+
+**Description**: This example demonstrates how to use two separate kernels and two streams to compute the square and cube of an input array. 
+
+### Example 3: Pinned Memory
+
+**Path**: [sec_04/ex_03](sec_04/ex_03)
+
+**Video**: Section 4, Video 5
+
+**Description**: This example demonstrates the utilization of pinned memory in HIP by modifying the previous vector addition example. 
+
+### Example 4: Unified Memory
+
+**Path**: [sec_04/ex_04](sec_04/ex_04)
+
+**Video**: Section 4, Video 5
+
+**Description**: This example demonstrates the utilization of unified memory in HIP by modifyinf the previous vector addition example.
+
+### Example 5: HIP Events
+
+**Path**: [sec_04/ex_05](sec_04/ex_05)
+
+**Video**: Section 4, Video 6
+
+**Description**: This example demonstrates the utilization of HIP events to accurately measure the execution time of a vector addition program. 
+
+### Section 6: ROCm Tools
+
+### Example 1: Application Tracing
+
+**Path**: [sec_06/ex_01](sec_06/ex_01)
+
+**Video**: Section 6, Video 5
+
+**Description**: This example demonstrates all the files generated after performing application tracing with the ROCm Profiler on a vector addition program. 
+
+### Example 2: GPU Profiling
+
+**Path**: [sec_06/ex_02](sec_06/ex_02)
+
+**Video**: Section 6, Video 5
+
+**Description**: This example demonstrates the file generated after performing GPU profiling on a vection addition program by specifying an input file. 
+
+### Example 3: Hipify-perl
+
+**Path**: [sec_06/ex_03](sec_06/ex_03)
+
+**Video**: Section 6, Video 6
+
+**Description**: This example shows the conversion of CUDA code to HIP code using the Hipify-perl tool, resulting in the demonstration of the converted HIP code. 
+
+### Example 4: Hipify-clang
+
+**Path**: [sec_06/ex_04](sec_06/ex_04)
+
+**Video**: Section 6, Video 6
+
+**Description**: his example shows the conversion of CUDA code to HIP code using the Hipify-clang tool, resulting in the demonstration of the converted HIP code. 

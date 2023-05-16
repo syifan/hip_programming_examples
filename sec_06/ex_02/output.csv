@@ -1,0 +1,11 @@
+Index,KernelName,gpu-id,queue-id,queue-index,pid,tid,grd,wgr,lds,scr,vgpr,sgpr,fbar,sig,obj,GPUBusy,Wavefronts,TCC_EA_WRREQ_sum,TCC_EA_RDREQ_sum
+0,"vector_add(float*, float*, float*, int) [clone .kd]",0,0,1,154861,154861,100000000,256,0,0,8,24,0,0x0,0x7fa0d8ac4640,100.0000000000,1562500.0000000000,6220386.0000000000,12543001.0000000000
+
+
+
+
+
+
+
+
+
