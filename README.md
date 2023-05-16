@@ -164,4 +164,4 @@ This repository contains examples used in the *High-Performance GPU Programming 
 
 **Video**: Section 6, Video 6
 
-**Description**: his example shows the conversion of CUDA code to HIP code using the Hipify-clang tool, resulting in the demonstration of the converted HIP code. 
+**Description**: This example shows the conversion of CUDA code to HIP code using the Hipify-clang tool, resulting in the demonstration of the converted HIP code. 
