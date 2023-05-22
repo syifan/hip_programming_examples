@@ -1,0 +1,6 @@
+main
+test_out.jpg
+*.csv
+*.db
+*.json
+*.sysinfo.txt
