@@ -65,3 +65,26 @@ This repository contains examples used in the *High-Performance GPU Programming 
 **Video**: Section 2, Video 7
 
 **Description**: This example demonstrates how to use MPI threads.
+
+
+
+## Section 7: HIP Performance Improvement 1
+
+### Example 1: Image Gamma Correction (Simple)
+
+**Path**: [sec_07/ex_01](sec_07/ex_01)
+
+**Video**: Section 7, Video 2
+
+**Description**: This example demonstrates how to use HIP to implement an image
+gamma correction algorithm.
+
+### Example 2: Image Gamma Correction (Fixed-Sized Kernel)
+
+**Path**: [sec_07/ex_02](sec_07/ex_02)
+
+**Video**: Section 7, Video 2
+
+**Description**: This example demonstrates how to use HIP to implement an image
+gamma correction algorithm. This example uses a fixed-sized kernel to reduce 
+the overhead of block dispatching.
