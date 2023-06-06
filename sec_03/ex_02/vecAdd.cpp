@@ -1,7 +1,7 @@
 #include <hip/hip_runtime.h>
 #include <time.h>
 
-#define N 1
+#define N 1000000
 
 __global__ void vector_add(float *c, float *a, float *b, int n) {
   int tid = blockDim.x * blockIdx.x + threadIdx.x;
