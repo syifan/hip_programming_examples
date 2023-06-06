@@ -189,3 +189,12 @@ gamma correction algorithm.
 **Description**: This example demonstrates how to use HIP to implement an image
 gamma correction algorithm. This example uses a fixed-sized kernel to reduce 
 the overhead of block dispatching.
+
+### Example 3: Image Gamma Correction (Loop Unrolling)
+
+**Path**: [sec_07/ex_03](sec_07/ex_03)
+
+**Video**: Section 7, Video 3
+
+**Description**: This example demonstrates how to use HIP to implement an image
+gamma correction algorithm. This example uses loop unrolling to hide memory access latency.

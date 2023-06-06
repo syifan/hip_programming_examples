@@ -1,1 +1,1 @@
-pmc: Wavefronts VALUBusy,MemUnitStalled
+pmc: Wavefronts,VALUInsts,SALUInsts,SFetchInsts,GDSInsts,VALUBusy,MemUnitStalled,

@@ -1,2 +1,5 @@
 main
+main_*
+main_*.cpp
+*.csv
 test_out.jpg
