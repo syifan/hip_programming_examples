@@ -1,0 +1,2 @@
+Index,KernelName,gpu-id,queue-id,queue-index,pid,tid,grd,wgr,lds,scr,arch_vgpr,accum_vgpr,sgpr,wave_size,sig,obj,Wavefronts,VALUInsts,SALUInsts,SFetchInsts,GDSInsts,VALUBusy,MemUnitStalled,FetchSize,WriteSize
+0,"vector_add(float*, float*, float*, int) [clone .kd]",2,0,1,3124159,3124159,307200,64,0,0,12,12,32,64,0x0,0x7f3df87da6c0,4800.0000000000,48842.1250000000,6521.4166666667,5.0000000000,0.0000000000,10.1645989053,81.5018440509,7813789.3750000000,3906250.0000000000

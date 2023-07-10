@@ -1,0 +1,4903 @@
+{ "traceEvents":[{}
+,{"args":{"name":"Markers and Ranges"},"ph":"M","pid":0,"name":"process_name","sort_index":0}
+,{"args":{"name":"COPY"},"ph":"M","pid":1,"name":"process_name","sort_index":1}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691179513","dur":"1",
+  "args":{
+    "BeginNs":"8213691179513157",
+    "EndNs":"8213691179513158",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691180005","dur":"1",
+  "args":{
+    "BeginNs":"8213691180005927",
+    "EndNs":"8213691180005928",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691180006","dur":"1802",
+  "args":{
+    "BeginNs":"8213691180006377",
+    "EndNs":"8213691181808740",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691179528","dur":"2281",
+  "args":{
+    "BeginNs":"8213691179528145",
+    "EndNs":"8213691181809171",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691179527","dur":"2282",
+  "args":{
+    "BeginNs":"8213691179527584",
+    "EndNs":"8213691181809643",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691182195","dur":"1",
+  "args":{
+    "BeginNs":"8213691182195320",
+    "EndNs":"8213691182195321",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691182200","dur":"1",
+  "args":{
+    "BeginNs":"8213691182200740",
+    "EndNs":"8213691182200741",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691182200","dur":"395",
+  "args":{
+    "BeginNs":"8213691182200830",
+    "EndNs":"8213691182596096",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691182195","dur":"400",
+  "args":{
+    "BeginNs":"8213691182195991",
+    "EndNs":"8213691182596377",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691182195","dur":"400",
+  "args":{
+    "BeginNs":"8213691182195891",
+    "EndNs":"8213691182596598",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691182964","dur":"1",
+  "args":{
+    "BeginNs":"8213691182964452",
+    "EndNs":"8213691182964453",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691182972","dur":"1",
+  "args":{
+    "BeginNs":"8213691182972868",
+    "EndNs":"8213691182972869",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691182973","dur":"384",
+  "args":{
+    "BeginNs":"8213691182973128",
+    "EndNs":"8213691183357554",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691182964","dur":"392",
+  "args":{
+    "BeginNs":"8213691182964882",
+    "EndNs":"8213691183357704",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691182964","dur":"393",
+  "args":{
+    "BeginNs":"8213691182964782",
+    "EndNs":"8213691183357785",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691183722","dur":"1",
+  "args":{
+    "BeginNs":"8213691183722352",
+    "EndNs":"8213691183722353",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691183725","dur":"1",
+  "args":{
+    "BeginNs":"8213691183725819",
+    "EndNs":"8213691183725820",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691183725","dur":"380",
+  "args":{
+    "BeginNs":"8213691183725899",
+    "EndNs":"8213691184106758",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691183722","dur":"384",
+  "args":{
+    "BeginNs":"8213691183722653",
+    "EndNs":"8213691184107069",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691183722","dur":"384",
+  "args":{
+    "BeginNs":"8213691183722573",
+    "EndNs":"8213691184107150",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691184471","dur":"1",
+  "args":{
+    "BeginNs":"8213691184471026",
+    "EndNs":"8213691184471027",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691184474","dur":"1",
+  "args":{
+    "BeginNs":"8213691184474853",
+    "EndNs":"8213691184474854",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691184474","dur":"381",
+  "args":{
+    "BeginNs":"8213691184474943",
+    "EndNs":"8213691184855963",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691184471","dur":"384",
+  "args":{
+    "BeginNs":"8213691184471417",
+    "EndNs":"8213691184856263",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691184471","dur":"385",
+  "args":{
+    "BeginNs":"8213691184471336",
+    "EndNs":"8213691184856505",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691185219","dur":"1",
+  "args":{
+    "BeginNs":"8213691185219970",
+    "EndNs":"8213691185219971",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691185223","dur":"1",
+  "args":{
+    "BeginNs":"8213691185223867",
+    "EndNs":"8213691185223868",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691185223","dur":"377",
+  "args":{
+    "BeginNs":"8213691185223937",
+    "EndNs":"8213691185601359",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691185220","dur":"380",
+  "args":{
+    "BeginNs":"8213691185220551",
+    "EndNs":"8213691185601520",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691185220","dur":"386",
+  "args":{
+    "BeginNs":"8213691185220471",
+    "EndNs":"8213691185606480",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691185976","dur":"1",
+  "args":{
+    "BeginNs":"8213691185976367",
+    "EndNs":"8213691185976368",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691185980","dur":"1",
+  "args":{
+    "BeginNs":"8213691185980355",
+    "EndNs":"8213691185980356",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691185980","dur":"379",
+  "args":{
+    "BeginNs":"8213691185980435",
+    "EndNs":"8213691186360062",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691185976","dur":"383",
+  "args":{
+    "BeginNs":"8213691185976928",
+    "EndNs":"8213691186360192",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691185976","dur":"383",
+  "args":{
+    "BeginNs":"8213691185976859",
+    "EndNs":"8213691186360273",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691186729","dur":"1",
+  "args":{
+    "BeginNs":"8213691186729319",
+    "EndNs":"8213691186729320",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691186732","dur":"1",
+  "args":{
+    "BeginNs":"8213691186732976",
+    "EndNs":"8213691186732977",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691186733","dur":"379",
+  "args":{
+    "BeginNs":"8213691186733046",
+    "EndNs":"8213691187112973",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691186729","dur":"383",
+  "args":{
+    "BeginNs":"8213691186729709",
+    "EndNs":"8213691187113284",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691186729","dur":"383",
+  "args":{
+    "BeginNs":"8213691186729629",
+    "EndNs":"8213691187113365",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691187475","dur":"1",
+  "args":{
+    "BeginNs":"8213691187475357",
+    "EndNs":"8213691187475358",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691187479","dur":"1",
+  "args":{
+    "BeginNs":"8213691187479094",
+    "EndNs":"8213691187479095",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691187479","dur":"379",
+  "args":{
+    "BeginNs":"8213691187479164",
+    "EndNs":"8213691187858851",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691187475","dur":"383",
+  "args":{
+    "BeginNs":"8213691187475728",
+    "EndNs":"8213691187859001",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691187475","dur":"383",
+  "args":{
+    "BeginNs":"8213691187475658",
+    "EndNs":"8213691187859082",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691188255","dur":"1",
+  "args":{
+    "BeginNs":"8213691188255540",
+    "EndNs":"8213691188255541",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691188259","dur":"1",
+  "args":{
+    "BeginNs":"8213691188259307",
+    "EndNs":"8213691188259308",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691188259","dur":"378",
+  "args":{
+    "BeginNs":"8213691188259387",
+    "EndNs":"8213691188637912",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691188255","dur":"382",
+  "args":{
+    "BeginNs":"8213691188255951",
+    "EndNs":"8213691188638072",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691188255","dur":"382",
+  "args":{
+    "BeginNs":"8213691188255881",
+    "EndNs":"8213691188638143",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691189003","dur":"1",
+  "args":{
+    "BeginNs":"8213691189003582",
+    "EndNs":"8213691189003583",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691189007","dur":"1",
+  "args":{
+    "BeginNs":"8213691189007139",
+    "EndNs":"8213691189007140",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691189007","dur":"377",
+  "args":{
+    "BeginNs":"8213691189007209",
+    "EndNs":"8213691189384541",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691189003","dur":"380",
+  "args":{
+    "BeginNs":"8213691189003923",
+    "EndNs":"8213691189384712",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691189003","dur":"380",
+  "args":{
+    "BeginNs":"8213691189003853",
+    "EndNs":"8213691189384793",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691189750","dur":"1",
+  "args":{
+    "BeginNs":"8213691189750282",
+    "EndNs":"8213691189750283",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691189753","dur":"1",
+  "args":{
+    "BeginNs":"8213691189753608",
+    "EndNs":"8213691189753609",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691189753","dur":"447",
+  "args":{
+    "BeginNs":"8213691189753678",
+    "EndNs":"8213691190200922",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691189750","dur":"450",
+  "args":{
+    "BeginNs":"8213691189750602",
+    "EndNs":"8213691190201093",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691189750","dur":"450",
+  "args":{
+    "BeginNs":"8213691189750522",
+    "EndNs":"8213691190201174",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691190569","dur":"1",
+  "args":{
+    "BeginNs":"8213691190569408",
+    "EndNs":"8213691190569409",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691190578","dur":"1",
+  "args":{
+    "BeginNs":"8213691190578235",
+    "EndNs":"8213691190578236",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691190578","dur":"379",
+  "args":{
+    "BeginNs":"8213691190578305",
+    "EndNs":"8213691190957881",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691190569","dur":"388",
+  "args":{
+    "BeginNs":"8213691190569789",
+    "EndNs":"8213691190958022",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691190569","dur":"388",
+  "args":{
+    "BeginNs":"8213691190569709",
+    "EndNs":"8213691190958103",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691191328","dur":"1",
+  "args":{
+    "BeginNs":"8213691191328190",
+    "EndNs":"8213691191328191",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691191331","dur":"1",
+  "args":{
+    "BeginNs":"8213691191331627",
+    "EndNs":"8213691191331628",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691191331","dur":"380",
+  "args":{
+    "BeginNs":"8213691191331767",
+    "EndNs":"8213691191711905",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691191328","dur":"383",
+  "args":{
+    "BeginNs":"8213691191328551",
+    "EndNs":"8213691191712025",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691191328","dur":"383",
+  "args":{
+    "BeginNs":"8213691191328481",
+    "EndNs":"8213691191712106",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691192081","dur":"1",
+  "args":{
+    "BeginNs":"8213691192081432",
+    "EndNs":"8213691192081433",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691192084","dur":"1",
+  "args":{
+    "BeginNs":"8213691192084929",
+    "EndNs":"8213691192084930",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691192085","dur":"380",
+  "args":{
+    "BeginNs":"8213691192085029",
+    "EndNs":"8213691192465718",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691192081","dur":"384",
+  "args":{
+    "BeginNs":"8213691192081813",
+    "EndNs":"8213691192465868",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691192081","dur":"384",
+  "args":{
+    "BeginNs":"8213691192081743",
+    "EndNs":"8213691192465939",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691192828","dur":"1",
+  "args":{
+    "BeginNs":"8213691192828903",
+    "EndNs":"8213691192828904",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691192832","dur":"1",
+  "args":{
+    "BeginNs":"8213691192832240",
+    "EndNs":"8213691192832241",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691192832","dur":"379",
+  "args":{
+    "BeginNs":"8213691192832320",
+    "EndNs":"8213691193211355",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691192829","dur":"382",
+  "args":{
+    "BeginNs":"8213691192829254",
+    "EndNs":"8213691193211485",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691192829","dur":"382",
+  "args":{
+    "BeginNs":"8213691192829164",
+    "EndNs":"8213691193211567",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691193576","dur":"1",
+  "args":{
+    "BeginNs":"8213691193576966",
+    "EndNs":"8213691193576967",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691193580","dur":"1",
+  "args":{
+    "BeginNs":"8213691193580432",
+    "EndNs":"8213691193580433",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691193580","dur":"379",
+  "args":{
+    "BeginNs":"8213691193580502",
+    "EndNs":"8213691193960159",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691193577","dur":"382",
+  "args":{
+    "BeginNs":"8213691193577336",
+    "EndNs":"8213691193960309",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691193577","dur":"383",
+  "args":{
+    "BeginNs":"8213691193577256",
+    "EndNs":"8213691193960400",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691194328","dur":"1",
+  "args":{
+    "BeginNs":"8213691194328093",
+    "EndNs":"8213691194328094",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691194331","dur":"1",
+  "args":{
+    "BeginNs":"8213691194331760",
+    "EndNs":"8213691194331761",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691194334","dur":"375",
+  "args":{
+    "BeginNs":"8213691194334856",
+    "EndNs":"8213691194710225",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691194328","dur":"381",
+  "args":{
+    "BeginNs":"8213691194328484",
+    "EndNs":"8213691194710385",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691194328","dur":"382",
+  "args":{
+    "BeginNs":"8213691194328394",
+    "EndNs":"8213691194710466",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691195094","dur":"1",
+  "args":{
+    "BeginNs":"8213691195094119",
+    "EndNs":"8213691195094120",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691195097","dur":"1",
+  "args":{
+    "BeginNs":"8213691195097877",
+    "EndNs":"8213691195097878",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691195097","dur":"378",
+  "args":{
+    "BeginNs":"8213691195097987",
+    "EndNs":"8213691195476682",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691195094","dur":"382",
+  "args":{
+    "BeginNs":"8213691195094540",
+    "EndNs":"8213691195476822",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691195094","dur":"382",
+  "args":{
+    "BeginNs":"8213691195094470",
+    "EndNs":"8213691195476903",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691195838","dur":"1",
+  "args":{
+    "BeginNs":"8213691195838816",
+    "EndNs":"8213691195838817",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691195842","dur":"1",
+  "args":{
+    "BeginNs":"8213691195842092",
+    "EndNs":"8213691195842093",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691195842","dur":"378",
+  "args":{
+    "BeginNs":"8213691195842162",
+    "EndNs":"8213691196220436",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691195839","dur":"381",
+  "args":{
+    "BeginNs":"8213691195839186",
+    "EndNs":"8213691196220576",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691195839","dur":"381",
+  "args":{
+    "BeginNs":"8213691195839116",
+    "EndNs":"8213691196220657",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691196583","dur":"1",
+  "args":{
+    "BeginNs":"8213691196583822",
+    "EndNs":"8213691196583823",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691196587","dur":"1",
+  "args":{
+    "BeginNs":"8213691196587438",
+    "EndNs":"8213691196587439",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691196587","dur":"378",
+  "args":{
+    "BeginNs":"8213691196587519",
+    "EndNs":"8213691196965713",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691196584","dur":"381",
+  "args":{
+    "BeginNs":"8213691196584223",
+    "EndNs":"8213691196965863",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691196584","dur":"381",
+  "args":{
+    "BeginNs":"8213691196584142",
+    "EndNs":"8213691196965934",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691197334","dur":"1",
+  "args":{
+    "BeginNs":"8213691197334258",
+    "EndNs":"8213691197334259",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691197337","dur":"1",
+  "args":{
+    "BeginNs":"8213691197337975",
+    "EndNs":"8213691197337976",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691197338","dur":"378",
+  "args":{
+    "BeginNs":"8213691197338066",
+    "EndNs":"8213691197716750",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691197334","dur":"382",
+  "args":{
+    "BeginNs":"8213691197334629",
+    "EndNs":"8213691197716891",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691197334","dur":"382",
+  "args":{
+    "BeginNs":"8213691197334549",
+    "EndNs":"8213691197716972",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691198088","dur":"1",
+  "args":{
+    "BeginNs":"8213691198088232",
+    "EndNs":"8213691198088233",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691198091","dur":"1",
+  "args":{
+    "BeginNs":"8213691198091768",
+    "EndNs":"8213691198091769",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691198091","dur":"378",
+  "args":{
+    "BeginNs":"8213691198091838",
+    "EndNs":"8213691198469862",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691198088","dur":"381",
+  "args":{
+    "BeginNs":"8213691198088582",
+    "EndNs":"8213691198469992",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691198088","dur":"381",
+  "args":{
+    "BeginNs":"8213691198088502",
+    "EndNs":"8213691198470073",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691198832","dur":"1",
+  "args":{
+    "BeginNs":"8213691198832517",
+    "EndNs":"8213691198832518",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691198838","dur":"1",
+  "args":{
+    "BeginNs":"8213691198838378",
+    "EndNs":"8213691198838379",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691198838","dur":"380",
+  "args":{
+    "BeginNs":"8213691198838448",
+    "EndNs":"8213691199218565",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691198832","dur":"385",
+  "args":{
+    "BeginNs":"8213691198832868",
+    "EndNs":"8213691199218736",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691198832","dur":"386",
+  "args":{
+    "BeginNs":"8213691198832797",
+    "EndNs":"8213691199218817",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691199584","dur":"1",
+  "args":{
+    "BeginNs":"8213691199584516",
+    "EndNs":"8213691199584517",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691199588","dur":"1",
+  "args":{
+    "BeginNs":"8213691199588544",
+    "EndNs":"8213691199588545",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691199588","dur":"389",
+  "args":{
+    "BeginNs":"8213691199588654",
+    "EndNs":"8213691199978039",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691199584","dur":"393",
+  "args":{
+    "BeginNs":"8213691199584847",
+    "EndNs":"8213691199978179",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691199584","dur":"393",
+  "args":{
+    "BeginNs":"8213691199584767",
+    "EndNs":"8213691199978261",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691200345","dur":"1",
+  "args":{
+    "BeginNs":"8213691200345523",
+    "EndNs":"8213691200345524",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691200349","dur":"1",
+  "args":{
+    "BeginNs":"8213691200349290",
+    "EndNs":"8213691200349291",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691200349","dur":"377",
+  "args":{
+    "BeginNs":"8213691200349380",
+    "EndNs":"8213691200726562",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691200345","dur":"380",
+  "args":{
+    "BeginNs":"8213691200345924",
+    "EndNs":"8213691200726703",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691200345","dur":"380",
+  "args":{
+    "BeginNs":"8213691200345853",
+    "EndNs":"8213691200726784",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691201225","dur":"1",
+  "args":{
+    "BeginNs":"8213691201225734",
+    "EndNs":"8213691201225735",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691201229","dur":"1",
+  "args":{
+    "BeginNs":"8213691201229582",
+    "EndNs":"8213691201229583",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691201229","dur":"379",
+  "args":{
+    "BeginNs":"8213691201229652",
+    "EndNs":"8213691201609399",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691201226","dur":"383",
+  "args":{
+    "BeginNs":"8213691201226165",
+    "EndNs":"8213691201609579",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691201226","dur":"383",
+  "args":{
+    "BeginNs":"8213691201226085",
+    "EndNs":"8213691201609660",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691201976","dur":"1",
+  "args":{
+    "BeginNs":"8213691201976812",
+    "EndNs":"8213691201976813",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691201980","dur":"1",
+  "args":{
+    "BeginNs":"8213691201980289",
+    "EndNs":"8213691201980290",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691201980","dur":"379",
+  "args":{
+    "BeginNs":"8213691201980389",
+    "EndNs":"8213691202359785",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691201977","dur":"382",
+  "args":{
+    "BeginNs":"8213691201977193",
+    "EndNs":"8213691202359926",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691201977","dur":"382",
+  "args":{
+    "BeginNs":"8213691201977113",
+    "EndNs":"8213691202360007",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691202720","dur":"1",
+  "args":{
+    "BeginNs":"8213691202720426",
+    "EndNs":"8213691202720427",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691202723","dur":"1",
+  "args":{
+    "BeginNs":"8213691202723722",
+    "EndNs":"8213691202723723",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691202723","dur":"380",
+  "args":{
+    "BeginNs":"8213691202723822",
+    "EndNs":"8213691203104722",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691202720","dur":"384",
+  "args":{
+    "BeginNs":"8213691202720777",
+    "EndNs":"8213691203104892",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691202720","dur":"384",
+  "args":{
+    "BeginNs":"8213691202720707",
+    "EndNs":"8213691203104973",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691203467","dur":"1",
+  "args":{
+    "BeginNs":"8213691203467657",
+    "EndNs":"8213691203467658",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691203473","dur":"1",
+  "args":{
+    "BeginNs":"8213691203473959",
+    "EndNs":"8213691203473960",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691203474","dur":"376",
+  "args":{
+    "BeginNs":"8213691203474029",
+    "EndNs":"8213691203850900",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691203470","dur":"380",
+  "args":{
+    "BeginNs":"8213691203470753",
+    "EndNs":"8213691203851050",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691203470","dur":"380",
+  "args":{
+    "BeginNs":"8213691203470683",
+    "EndNs":"8213691203851132",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691204212","dur":"1",
+  "args":{
+    "BeginNs":"8213691204212102",
+    "EndNs":"8213691204212103",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691204215","dur":"1",
+  "args":{
+    "BeginNs":"8213691204215629",
+    "EndNs":"8213691204215630",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691204215","dur":"381",
+  "args":{
+    "BeginNs":"8213691204215729",
+    "EndNs":"8213691204597430",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691204212","dur":"385",
+  "args":{
+    "BeginNs":"8213691204212453",
+    "EndNs":"8213691204597560",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691204212","dur":"385",
+  "args":{
+    "BeginNs":"8213691204212383",
+    "EndNs":"8213691204597641",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691204961","dur":"1",
+  "args":{
+    "BeginNs":"8213691204961166",
+    "EndNs":"8213691204961167",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691204964","dur":"1",
+  "args":{
+    "BeginNs":"8213691204964503",
+    "EndNs":"8213691204964504",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691204964","dur":"378",
+  "args":{
+    "BeginNs":"8213691204964613",
+    "EndNs":"8213691205343538",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691204961","dur":"382",
+  "args":{
+    "BeginNs":"8213691204961517",
+    "EndNs":"8213691205343698",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691204961","dur":"382",
+  "args":{
+    "BeginNs":"8213691204961457",
+    "EndNs":"8213691205343780",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691205706","dur":"1",
+  "args":{
+    "BeginNs":"8213691205706954",
+    "EndNs":"8213691205706955",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691205710","dur":"1",
+  "args":{
+    "BeginNs":"8213691205710541",
+    "EndNs":"8213691205710542",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691205710","dur":"381",
+  "args":{
+    "BeginNs":"8213691205710631",
+    "EndNs":"8213691206091881",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691205707","dur":"384",
+  "args":{
+    "BeginNs":"8213691205707335",
+    "EndNs":"8213691206092021",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691205707","dur":"384",
+  "args":{
+    "BeginNs":"8213691205707274",
+    "EndNs":"8213691206092102",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691206455","dur":"1",
+  "args":{
+    "BeginNs":"8213691206455106",
+    "EndNs":"8213691206455107",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691206458","dur":"1",
+  "args":{
+    "BeginNs":"8213691206458583",
+    "EndNs":"8213691206458584",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691206458","dur":"377",
+  "args":{
+    "BeginNs":"8213691206458653",
+    "EndNs":"8213691206835925",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691206455","dur":"380",
+  "args":{
+    "BeginNs":"8213691206455487",
+    "EndNs":"8213691206836096",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691206455","dur":"380",
+  "args":{
+    "BeginNs":"8213691206455397",
+    "EndNs":"8213691206836177",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691207197","dur":"1",
+  "args":{
+    "BeginNs":"8213691207197257",
+    "EndNs":"8213691207197258",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691207200","dur":"1",
+  "args":{
+    "BeginNs":"8213691207200774",
+    "EndNs":"8213691207200775",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691207200","dur":"380",
+  "args":{
+    "BeginNs":"8213691207200854",
+    "EndNs":"8213691207581733",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691207197","dur":"384",
+  "args":{
+    "BeginNs":"8213691207197658",
+    "EndNs":"8213691207581863",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691207197","dur":"384",
+  "args":{
+    "BeginNs":"8213691207197598",
+    "EndNs":"8213691207581945",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691207947","dur":"1",
+  "args":{
+    "BeginNs":"8213691207947784",
+    "EndNs":"8213691207947785",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691207951","dur":"1",
+  "args":{
+    "BeginNs":"8213691207951251",
+    "EndNs":"8213691207951252",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691207951","dur":"380",
+  "args":{
+    "BeginNs":"8213691207951331",
+    "EndNs":"8213691208332180",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691207948","dur":"384",
+  "args":{
+    "BeginNs":"8213691207948145",
+    "EndNs":"8213691208332310",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691207948","dur":"384",
+  "args":{
+    "BeginNs":"8213691207948065",
+    "EndNs":"8213691208332391",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691208696","dur":"1",
+  "args":{
+    "BeginNs":"8213691208696397",
+    "EndNs":"8213691208696398",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691208699","dur":"1",
+  "args":{
+    "BeginNs":"8213691208699914",
+    "EndNs":"8213691208699915",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691208699","dur":"387",
+  "args":{
+    "BeginNs":"8213691208699984",
+    "EndNs":"8213691209087676",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691208696","dur":"391",
+  "args":{
+    "BeginNs":"8213691208696778",
+    "EndNs":"8213691209087846",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691208696","dur":"391",
+  "args":{
+    "BeginNs":"8213691208696708",
+    "EndNs":"8213691209087928",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691209449","dur":"1",
+  "args":{
+    "BeginNs":"8213691209449770",
+    "EndNs":"8213691209449771",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691209453","dur":"1",
+  "args":{
+    "BeginNs":"8213691209453356",
+    "EndNs":"8213691209453357",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691209453","dur":"379",
+  "args":{
+    "BeginNs":"8213691209453426",
+    "EndNs":"8213691209832592",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691209450","dur":"382",
+  "args":{
+    "BeginNs":"8213691209450160",
+    "EndNs":"8213691209832733",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691209450","dur":"382",
+  "args":{
+    "BeginNs":"8213691209450090",
+    "EndNs":"8213691209832814",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691210196","dur":"1",
+  "args":{
+    "BeginNs":"8213691210196279",
+    "EndNs":"8213691210196280",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691210199","dur":"1",
+  "args":{
+    "BeginNs":"8213691210199875",
+    "EndNs":"8213691210199876",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691210199","dur":"378",
+  "args":{
+    "BeginNs":"8213691210199946",
+    "EndNs":"8213691210578751",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691210196","dur":"382",
+  "args":{
+    "BeginNs":"8213691210196720",
+    "EndNs":"8213691210578891",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691210196","dur":"382",
+  "args":{
+    "BeginNs":"8213691210196629",
+    "EndNs":"8213691210578972",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691210942","dur":"1",
+  "args":{
+    "BeginNs":"8213691210942497",
+    "EndNs":"8213691210942498",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691210945","dur":"1",
+  "args":{
+    "BeginNs":"8213691210945884",
+    "EndNs":"8213691210945885",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691210945","dur":"379",
+  "args":{
+    "BeginNs":"8213691210945984",
+    "EndNs":"8213691211325210",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691210942","dur":"382",
+  "args":{
+    "BeginNs":"8213691210942858",
+    "EndNs":"8213691211325350",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691210942","dur":"382",
+  "args":{
+    "BeginNs":"8213691210942798",
+    "EndNs":"8213691211325441",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691211689","dur":"1",
+  "args":{
+    "BeginNs":"8213691211689718",
+    "EndNs":"8213691211689719",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691211693","dur":"1",
+  "args":{
+    "BeginNs":"8213691211693285",
+    "EndNs":"8213691211693286",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691211693","dur":"540",
+  "args":{
+    "BeginNs":"8213691211693355",
+    "EndNs":"8213691212233945",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691211690","dur":"555",
+  "args":{
+    "BeginNs":"8213691211690119",
+    "EndNs":"8213691212245277",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691211690","dur":"555",
+  "args":{
+    "BeginNs":"8213691211690049",
+    "EndNs":"8213691212245388",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691212613","dur":"1",
+  "args":{
+    "BeginNs":"8213691212613742",
+    "EndNs":"8213691212613743",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691212617","dur":"1",
+  "args":{
+    "BeginNs":"8213691212617800",
+    "EndNs":"8213691212617801",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691212617","dur":"392",
+  "args":{
+    "BeginNs":"8213691212617870",
+    "EndNs":"8213691213009870",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691212614","dur":"395",
+  "args":{
+    "BeginNs":"8213691212614123",
+    "EndNs":"8213691213010031",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691212614","dur":"396",
+  "args":{
+    "BeginNs":"8213691212614043",
+    "EndNs":"8213691213010112",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691213372","dur":"1",
+  "args":{
+    "BeginNs":"8213691213372174",
+    "EndNs":"8213691213372175",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691213375","dur":"1",
+  "args":{
+    "BeginNs":"8213691213375691",
+    "EndNs":"8213691213375692",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691213375","dur":"382",
+  "args":{
+    "BeginNs":"8213691213375761",
+    "EndNs":"8213691213758353",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691213372","dur":"385",
+  "args":{
+    "BeginNs":"8213691213372505",
+    "EndNs":"8213691213758504",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691213372","dur":"386",
+  "args":{
+    "BeginNs":"8213691213372435",
+    "EndNs":"8213691213758585",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691214124","dur":"1",
+  "args":{
+    "BeginNs":"8213691214124054",
+    "EndNs":"8213691214124055",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691214127","dur":"1",
+  "args":{
+    "BeginNs":"8213691214127721",
+    "EndNs":"8213691214127722",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691214127","dur":"376",
+  "args":{
+    "BeginNs":"8213691214127821",
+    "EndNs":"8213691214504582",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691214124","dur":"380",
+  "args":{
+    "BeginNs":"8213691214124424",
+    "EndNs":"8213691214504712",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691214124","dur":"380",
+  "args":{
+    "BeginNs":"8213691214124364",
+    "EndNs":"8213691214504793",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691214864","dur":"1",
+  "args":{
+    "BeginNs":"8213691214864120",
+    "EndNs":"8213691214864121",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691214867","dur":"1",
+  "args":{
+    "BeginNs":"8213691214867577",
+    "EndNs":"8213691214867578",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691214867","dur":"380",
+  "args":{
+    "BeginNs":"8213691214867657",
+    "EndNs":"8213691215248636",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691214864","dur":"384",
+  "args":{
+    "BeginNs":"8213691214864421",
+    "EndNs":"8213691215248797",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691214864","dur":"384",
+  "args":{
+    "BeginNs":"8213691214864331",
+    "EndNs":"8213691215248878",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691215614","dur":"1",
+  "args":{
+    "BeginNs":"8213691215614187",
+    "EndNs":"8213691215614188",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691215618","dur":"1",
+  "args":{
+    "BeginNs":"8213691215618214",
+    "EndNs":"8213691215618215",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691215618","dur":"385",
+  "args":{
+    "BeginNs":"8213691215618324",
+    "EndNs":"8213691216003602",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691215614","dur":"389",
+  "args":{
+    "BeginNs":"8213691215614577",
+    "EndNs":"8213691216003732",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691215614","dur":"389",
+  "args":{
+    "BeginNs":"8213691215614497",
+    "EndNs":"8213691216003813",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691216364","dur":"1",
+  "args":{
+    "BeginNs":"8213691216364914",
+    "EndNs":"8213691216364915",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691216368","dur":"1",
+  "args":{
+    "BeginNs":"8213691216368551",
+    "EndNs":"8213691216368552",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691216368","dur":"378",
+  "args":{
+    "BeginNs":"8213691216368621",
+    "EndNs":"8213691216747215",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691216365","dur":"382",
+  "args":{
+    "BeginNs":"8213691216365304",
+    "EndNs":"8213691216747346",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691216365","dur":"382",
+  "args":{
+    "BeginNs":"8213691216365234",
+    "EndNs":"8213691216747427",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691217112","dur":"1",
+  "args":{
+    "BeginNs":"8213691217112194",
+    "EndNs":"8213691217112195",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691217116","dur":"1",
+  "args":{
+    "BeginNs":"8213691217116052",
+    "EndNs":"8213691217116053",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691217116","dur":"379",
+  "args":{
+    "BeginNs":"8213691217116132",
+    "EndNs":"8213691217495197",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691217112","dur":"382",
+  "args":{
+    "BeginNs":"8213691217112575",
+    "EndNs":"8213691217495368",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691217112","dur":"382",
+  "args":{
+    "BeginNs":"8213691217112485",
+    "EndNs":"8213691217495449",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691217854","dur":"1",
+  "args":{
+    "BeginNs":"8213691217854997",
+    "EndNs":"8213691217854998",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691217858","dur":"1",
+  "args":{
+    "BeginNs":"8213691217858573",
+    "EndNs":"8213691217858574",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691217858","dur":"379",
+  "args":{
+    "BeginNs":"8213691217858653",
+    "EndNs":"8213691218238010",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691217855","dur":"382",
+  "args":{
+    "BeginNs":"8213691217855327",
+    "EndNs":"8213691218238170",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691217855","dur":"382",
+  "args":{
+    "BeginNs":"8213691217855257",
+    "EndNs":"8213691218238251",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691218600","dur":"1",
+  "args":{
+    "BeginNs":"8213691218600233",
+    "EndNs":"8213691218600234",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691218603","dur":"1",
+  "args":{
+    "BeginNs":"8213691218603740",
+    "EndNs":"8213691218603741",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691218603","dur":"382",
+  "args":{
+    "BeginNs":"8213691218603810",
+    "EndNs":"8213691218986542",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691218600","dur":"386",
+  "args":{
+    "BeginNs":"8213691218600614",
+    "EndNs":"8213691218986703",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691218600","dur":"386",
+  "args":{
+    "BeginNs":"8213691218600524",
+    "EndNs":"8213691218986784",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691219349","dur":"1",
+  "args":{
+    "BeginNs":"8213691219349839",
+    "EndNs":"8213691219349840",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691219353","dur":"1",
+  "args":{
+    "BeginNs":"8213691219353606",
+    "EndNs":"8213691219353607",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691219353","dur":"379",
+  "args":{
+    "BeginNs":"8213691219353676",
+    "EndNs":"8213691219732871",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691219350","dur":"382",
+  "args":{
+    "BeginNs":"8213691219350189",
+    "EndNs":"8213691219733012",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691219350","dur":"382",
+  "args":{
+    "BeginNs":"8213691219350099",
+    "EndNs":"8213691219733093",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691220096","dur":"1",
+  "args":{
+    "BeginNs":"8213691220096228",
+    "EndNs":"8213691220096229",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691220099","dur":"1",
+  "args":{
+    "BeginNs":"8213691220099724",
+    "EndNs":"8213691220099725",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691220099","dur":"379",
+  "args":{
+    "BeginNs":"8213691220099824",
+    "EndNs":"8213691220479251",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691220096","dur":"382",
+  "args":{
+    "BeginNs":"8213691220096578",
+    "EndNs":"8213691220479391",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691220096","dur":"382",
+  "args":{
+    "BeginNs":"8213691220096488",
+    "EndNs":"8213691220479472",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691220840","dur":"1",
+  "args":{
+    "BeginNs":"8213691220840032",
+    "EndNs":"8213691220840033",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691220845","dur":"1",
+  "args":{
+    "BeginNs":"8213691220845562",
+    "EndNs":"8213691220845563",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691220845","dur":"381",
+  "args":{
+    "BeginNs":"8213691220845632",
+    "EndNs":"8213691221227623",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691220840","dur":"387",
+  "args":{
+    "BeginNs":"8213691220840352",
+    "EndNs":"8213691221227773",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691220840","dur":"387",
+  "args":{
+    "BeginNs":"8213691220840262",
+    "EndNs":"8213691221227855",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691221594","dur":"1",
+  "args":{
+    "BeginNs":"8213691221594806",
+    "EndNs":"8213691221594807",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691221598","dur":"1",
+  "args":{
+    "BeginNs":"8213691221598564",
+    "EndNs":"8213691221598565",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691221598","dur":"384",
+  "args":{
+    "BeginNs":"8213691221598634",
+    "EndNs":"8213691221982849",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691221595","dur":"387",
+  "args":{
+    "BeginNs":"8213691221595187",
+    "EndNs":"8213691221983009",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691221595","dur":"387",
+  "args":{
+    "BeginNs":"8213691221595107",
+    "EndNs":"8213691221983091",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691222347","dur":"1",
+  "args":{
+    "BeginNs":"8213691222347918",
+    "EndNs":"8213691222347919",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691222351","dur":"1",
+  "args":{
+    "BeginNs":"8213691222351505",
+    "EndNs":"8213691222351506",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691222351","dur":"379",
+  "args":{
+    "BeginNs":"8213691222351585",
+    "EndNs":"8213691222731042",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691222348","dur":"382",
+  "args":{
+    "BeginNs":"8213691222348309",
+    "EndNs":"8213691222731192",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691222348","dur":"383",
+  "args":{
+    "BeginNs":"8213691222348229",
+    "EndNs":"8213691222731273",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691223241","dur":"1",
+  "args":{
+    "BeginNs":"8213691223241956",
+    "EndNs":"8213691223241957",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691223246","dur":"1",
+  "args":{
+    "BeginNs":"8213691223246064",
+    "EndNs":"8213691223246065",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691223246","dur":"377",
+  "args":{
+    "BeginNs":"8213691223246164",
+    "EndNs":"8213691223623987",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691223242","dur":"381",
+  "args":{
+    "BeginNs":"8213691223242447",
+    "EndNs":"8213691223624117",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691223242","dur":"381",
+  "args":{
+    "BeginNs":"8213691223242357",
+    "EndNs":"8213691223624198",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691223991","dur":"1",
+  "args":{
+    "BeginNs":"8213691223991731",
+    "EndNs":"8213691223991732",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691223995","dur":"1",
+  "args":{
+    "BeginNs":"8213691223995438",
+    "EndNs":"8213691223995439",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691223995","dur":"375",
+  "args":{
+    "BeginNs":"8213691223995518",
+    "EndNs":"8213691224371328",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691223992","dur":"379",
+  "args":{
+    "BeginNs":"8213691223992182",
+    "EndNs":"8213691224371468",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691223992","dur":"379",
+  "args":{
+    "BeginNs":"8213691223992102",
+    "EndNs":"8213691224371549",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691224734","dur":"1",
+  "args":{
+    "BeginNs":"8213691224734544",
+    "EndNs":"8213691224734545",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691224737","dur":"1",
+  "args":{
+    "BeginNs":"8213691224737830",
+    "EndNs":"8213691224737831",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691224737","dur":"379",
+  "args":{
+    "BeginNs":"8213691224737900",
+    "EndNs":"8213691225117817",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691224734","dur":"383",
+  "args":{
+    "BeginNs":"8213691224734864",
+    "EndNs":"8213691225117977",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691224734","dur":"383",
+  "args":{
+    "BeginNs":"8213691224734794",
+    "EndNs":"8213691225118058",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691225479","dur":"1",
+  "args":{
+    "BeginNs":"8213691225479911",
+    "EndNs":"8213691225479912",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691225485","dur":"1",
+  "args":{
+    "BeginNs":"8213691225485731",
+    "EndNs":"8213691225485732",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691225485","dur":"378",
+  "args":{
+    "BeginNs":"8213691225485822",
+    "EndNs":"8213691225864336",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691225482","dur":"381",
+  "args":{
+    "BeginNs":"8213691225482596",
+    "EndNs":"8213691225864506",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691225480","dur":"384",
+  "args":{
+    "BeginNs":"8213691225480151",
+    "EndNs":"8213691225864588",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691226227","dur":"1",
+  "args":{
+    "BeginNs":"8213691226227782",
+    "EndNs":"8213691226227783",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691226231","dur":"1",
+  "args":{
+    "BeginNs":"8213691226231389",
+    "EndNs":"8213691226231390",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691226231","dur":"380",
+  "args":{
+    "BeginNs":"8213691226231489",
+    "EndNs":"8213691226612008",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691226228","dur":"383",
+  "args":{
+    "BeginNs":"8213691226228163",
+    "EndNs":"8213691226612138",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691226228","dur":"384",
+  "args":{
+    "BeginNs":"8213691226228053",
+    "EndNs":"8213691226612229",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691226980","dur":"1",
+  "args":{
+    "BeginNs":"8213691226980533",
+    "EndNs":"8213691226980534",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691226984","dur":"1",
+  "args":{
+    "BeginNs":"8213691226984070",
+    "EndNs":"8213691226984071",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691226984","dur":"378",
+  "args":{
+    "BeginNs":"8213691226984140",
+    "EndNs":"8213691227362845",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691226980","dur":"382",
+  "args":{
+    "BeginNs":"8213691226980904",
+    "EndNs":"8213691227362995",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691226980","dur":"382",
+  "args":{
+    "BeginNs":"8213691226980844",
+    "EndNs":"8213691227363067",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691227726","dur":"1",
+  "args":{
+    "BeginNs":"8213691227726612",
+    "EndNs":"8213691227726613",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691227729","dur":"1",
+  "args":{
+    "BeginNs":"8213691227729828",
+    "EndNs":"8213691227729829",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691227729","dur":"380",
+  "args":{
+    "BeginNs":"8213691227729898",
+    "EndNs":"8213691228110416",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691227726","dur":"383",
+  "args":{
+    "BeginNs":"8213691227726952",
+    "EndNs":"8213691228110546",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691227726","dur":"383",
+  "args":{
+    "BeginNs":"8213691227726872",
+    "EndNs":"8213691228110628",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691228474","dur":"1",
+  "args":{
+    "BeginNs":"8213691228474213",
+    "EndNs":"8213691228474214",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691228477","dur":"1",
+  "args":{
+    "BeginNs":"8213691228477720",
+    "EndNs":"8213691228477721",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691228477","dur":"377",
+  "args":{
+    "BeginNs":"8213691228477800",
+    "EndNs":"8213691228855272",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691228474","dur":"380",
+  "args":{
+    "BeginNs":"8213691228474554",
+    "EndNs":"8213691228855403",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691228474","dur":"381",
+  "args":{
+    "BeginNs":"8213691228474464",
+    "EndNs":"8213691228855484",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691229215","dur":"1",
+  "args":{
+    "BeginNs":"8213691229215793",
+    "EndNs":"8213691229215794",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691229219","dur":"1",
+  "args":{
+    "BeginNs":"8213691229219099",
+    "EndNs":"8213691229219100",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691229219","dur":"378",
+  "args":{
+    "BeginNs":"8213691229219169",
+    "EndNs":"8213691229597844",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691229216","dur":"381",
+  "args":{
+    "BeginNs":"8213691229216124",
+    "EndNs":"8213691229598014",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691229216","dur":"382",
+  "args":{
+    "BeginNs":"8213691229216053",
+    "EndNs":"8213691229598096",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691229961","dur":"1",
+  "args":{
+    "BeginNs":"8213691229961070",
+    "EndNs":"8213691229961071",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691229964","dur":"1",
+  "args":{
+    "BeginNs":"8213691229964446",
+    "EndNs":"8213691229964447",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691229964","dur":"378",
+  "args":{
+    "BeginNs":"8213691229964537",
+    "EndNs":"8213691230342580",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691229961","dur":"381",
+  "args":{
+    "BeginNs":"8213691229961351",
+    "EndNs":"8213691230342710",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691229961","dur":"381",
+  "args":{
+    "BeginNs":"8213691229961280",
+    "EndNs":"8213691230342792",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691230704","dur":"1",
+  "args":{
+    "BeginNs":"8213691230704033",
+    "EndNs":"8213691230704034",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691230707","dur":"1",
+  "args":{
+    "BeginNs":"8213691230707369",
+    "EndNs":"8213691230707370",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691230707","dur":"410",
+  "args":{
+    "BeginNs":"8213691230707439",
+    "EndNs":"8213691231117443",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691230704","dur":"413",
+  "args":{
+    "BeginNs":"8213691230704353",
+    "EndNs":"8213691231117603",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691230704","dur":"413",
+  "args":{
+    "BeginNs":"8213691230704253",
+    "EndNs":"8213691231117684",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691231483","dur":"1",
+  "args":{
+    "BeginNs":"8213691231483825",
+    "EndNs":"8213691231483826",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691231487","dur":"1",
+  "args":{
+    "BeginNs":"8213691231487582",
+    "EndNs":"8213691231487583",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691231487","dur":"377",
+  "args":{
+    "BeginNs":"8213691231487652",
+    "EndNs":"8213691231864904",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691231484","dur":"380",
+  "args":{
+    "BeginNs":"8213691231484215",
+    "EndNs":"8213691231865034",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691231484","dur":"380",
+  "args":{
+    "BeginNs":"8213691231484145",
+    "EndNs":"8213691231865115",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691232229","dur":"1",
+  "args":{
+    "BeginNs":"8213691232229722",
+    "EndNs":"8213691232229723",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691232233","dur":"1",
+  "args":{
+    "BeginNs":"8213691232233209",
+    "EndNs":"8213691232233210",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691232233","dur":"378",
+  "args":{
+    "BeginNs":"8213691232233319",
+    "EndNs":"8213691232612245",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691232230","dur":"382",
+  "args":{
+    "BeginNs":"8213691232230163",
+    "EndNs":"8213691232612355",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691232230","dur":"382",
+  "args":{
+    "BeginNs":"8213691232230073",
+    "EndNs":"8213691232612436",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691232980","dur":"1",
+  "args":{
+    "BeginNs":"8213691232980490",
+    "EndNs":"8213691232980491",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691232983","dur":"1",
+  "args":{
+    "BeginNs":"8213691232983926",
+    "EndNs":"8213691232983927",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691232983","dur":"379",
+  "args":{
+    "BeginNs":"8213691232983996",
+    "EndNs":"8213691233363342",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691232980","dur":"382",
+  "args":{
+    "BeginNs":"8213691232980790",
+    "EndNs":"8213691233363533",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691232980","dur":"382",
+  "args":{
+    "BeginNs":"8213691232980710",
+    "EndNs":"8213691233363614",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691233724","dur":"1",
+  "args":{
+    "BeginNs":"8213691233724114",
+    "EndNs":"8213691233724115",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691233727","dur":"1",
+  "args":{
+    "BeginNs":"8213691233727440",
+    "EndNs":"8213691233727441",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691233727","dur":"517",
+  "args":{
+    "BeginNs":"8213691233727520",
+    "EndNs":"8213691234245408",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691233724","dur":"521",
+  "args":{
+    "BeginNs":"8213691233724464",
+    "EndNs":"8213691234245558",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691233724","dur":"523",
+  "args":{
+    "BeginNs":"8213691233724364",
+    "EndNs":"8213691234247953",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691234616","dur":"1",
+  "args":{
+    "BeginNs":"8213691234616358",
+    "EndNs":"8213691234616359",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691234620","dur":"1",
+  "args":{
+    "BeginNs":"8213691234620386",
+    "EndNs":"8213691234620387",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691234620","dur":"383",
+  "args":{
+    "BeginNs":"8213691234620456",
+    "EndNs":"8213691235004140",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691234616","dur":"387",
+  "args":{
+    "BeginNs":"8213691234616699",
+    "EndNs":"8213691235004300",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691234616","dur":"387",
+  "args":{
+    "BeginNs":"8213691234616619",
+    "EndNs":"8213691235004381",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691235367","dur":"1",
+  "args":{
+    "BeginNs":"8213691235367566",
+    "EndNs":"8213691235367567",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691235371","dur":"1",
+  "args":{
+    "BeginNs":"8213691235371103",
+    "EndNs":"8213691235371104",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691235371","dur":"380",
+  "args":{
+    "BeginNs":"8213691235371213",
+    "EndNs":"8213691235751621",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691235367","dur":"383",
+  "args":{
+    "BeginNs":"8213691235367957",
+    "EndNs":"8213691235751781",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691235367","dur":"383",
+  "args":{
+    "BeginNs":"8213691235367867",
+    "EndNs":"8213691235751863",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691236112","dur":"1",
+  "args":{
+    "BeginNs":"8213691236112342",
+    "EndNs":"8213691236112343",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691236115","dur":"1",
+  "args":{
+    "BeginNs":"8213691236115859",
+    "EndNs":"8213691236115860",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691236115","dur":"378",
+  "args":{
+    "BeginNs":"8213691236115929",
+    "EndNs":"8213691236494093",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691236112","dur":"381",
+  "args":{
+    "BeginNs":"8213691236112693",
+    "EndNs":"8213691236494233",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691236112","dur":"381",
+  "args":{
+    "BeginNs":"8213691236112583",
+    "EndNs":"8213691236494314",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691236857","dur":"1",
+  "args":{
+    "BeginNs":"8213691236857058",
+    "EndNs":"8213691236857059",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691236860","dur":"1",
+  "args":{
+    "BeginNs":"8213691236860695",
+    "EndNs":"8213691236860696",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691236860","dur":"377",
+  "args":{
+    "BeginNs":"8213691236860775",
+    "EndNs":"8213691237238448",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691236857","dur":"381",
+  "args":{
+    "BeginNs":"8213691236857499",
+    "EndNs":"8213691237238578",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691236857","dur":"381",
+  "args":{
+    "BeginNs":"8213691236857398",
+    "EndNs":"8213691237238659",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691237602","dur":"1",
+  "args":{
+    "BeginNs":"8213691237602255",
+    "EndNs":"8213691237602256",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691237605","dur":"1",
+  "args":{
+    "BeginNs":"8213691237605771",
+    "EndNs":"8213691237605772",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691237605","dur":"383",
+  "args":{
+    "BeginNs":"8213691237605841",
+    "EndNs":"8213691237989636",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691237602","dur":"387",
+  "args":{
+    "BeginNs":"8213691237602605",
+    "EndNs":"8213691237989786",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691237602","dur":"387",
+  "args":{
+    "BeginNs":"8213691237602535",
+    "EndNs":"8213691237989867",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691238354","dur":"1",
+  "args":{
+    "BeginNs":"8213691238354505",
+    "EndNs":"8213691238354506",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691238358","dur":"1",
+  "args":{
+    "BeginNs":"8213691238358342",
+    "EndNs":"8213691238358343",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691238358","dur":"378",
+  "args":{
+    "BeginNs":"8213691238358422",
+    "EndNs":"8213691238736836",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691238354","dur":"382",
+  "args":{
+    "BeginNs":"8213691238354855",
+    "EndNs":"8213691238736977",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691238354","dur":"382",
+  "args":{
+    "BeginNs":"8213691238354785",
+    "EndNs":"8213691238737058",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691239101","dur":"1",
+  "args":{
+    "BeginNs":"8213691239101785",
+    "EndNs":"8213691239101786",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691239105","dur":"1",
+  "args":{
+    "BeginNs":"8213691239105332",
+    "EndNs":"8213691239105333",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691239105","dur":"382",
+  "args":{
+    "BeginNs":"8213691239105402",
+    "EndNs":"8213691239487934",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691239102","dur":"385",
+  "args":{
+    "BeginNs":"8213691239102176",
+    "EndNs":"8213691239488064",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691239102","dur":"386",
+  "args":{
+    "BeginNs":"8213691239102106",
+    "EndNs":"8213691239488146",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691239849","dur":"1",
+  "args":{
+    "BeginNs":"8213691239849186",
+    "EndNs":"8213691239849187",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691239852","dur":"1",
+  "args":{
+    "BeginNs":"8213691239852412",
+    "EndNs":"8213691239852413",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691239852","dur":"382",
+  "args":{
+    "BeginNs":"8213691239852492",
+    "EndNs":"8213691240234594",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691239849","dur":"385",
+  "args":{
+    "BeginNs":"8213691239849507",
+    "EndNs":"8213691240234784",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691239849","dur":"385",
+  "args":{
+    "BeginNs":"8213691239849437",
+    "EndNs":"8213691240234885",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691240601","dur":"1",
+  "args":{
+    "BeginNs":"8213691240601737",
+    "EndNs":"8213691240601738",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691240605","dur":"1",
+  "args":{
+    "BeginNs":"8213691240605414",
+    "EndNs":"8213691240605415",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691240605","dur":"378",
+  "args":{
+    "BeginNs":"8213691240605494",
+    "EndNs":"8213691240983598",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691240602","dur":"381",
+  "args":{
+    "BeginNs":"8213691240602098",
+    "EndNs":"8213691240983748",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691240602","dur":"381",
+  "args":{
+    "BeginNs":"8213691240602027",
+    "EndNs":"8213691240983819",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691241349","dur":"1",
+  "args":{
+    "BeginNs":"8213691241349068",
+    "EndNs":"8213691241349069",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691241352","dur":"1",
+  "args":{
+    "BeginNs":"8213691241352755",
+    "EndNs":"8213691241352756",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691241352","dur":"377",
+  "args":{
+    "BeginNs":"8213691241352835",
+    "EndNs":"8213691241730738",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691241349","dur":"381",
+  "args":{
+    "BeginNs":"8213691241349418",
+    "EndNs":"8213691241730889",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691241349","dur":"381",
+  "args":{
+    "BeginNs":"8213691241349348",
+    "EndNs":"8213691241730979",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691242099","dur":"1",
+  "args":{
+    "BeginNs":"8213691242099284",
+    "EndNs":"8213691242099285",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691242103","dur":"1",
+  "args":{
+    "BeginNs":"8213691242103131",
+    "EndNs":"8213691242103132",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691242103","dur":"379",
+  "args":{
+    "BeginNs":"8213691242103211",
+    "EndNs":"8213691242482237",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691242099","dur":"382",
+  "args":{
+    "BeginNs":"8213691242099645",
+    "EndNs":"8213691242482397",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691242099","dur":"382",
+  "args":{
+    "BeginNs":"8213691242099585",
+    "EndNs":"8213691242482488",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691242845","dur":"1",
+  "args":{
+    "BeginNs":"8213691242845412",
+    "EndNs":"8213691242845413",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691242848","dur":"1",
+  "args":{
+    "BeginNs":"8213691242848779",
+    "EndNs":"8213691242848780",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691242851","dur":"380",
+  "args":{
+    "BeginNs":"8213691242851644",
+    "EndNs":"8213691243232513",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691242845","dur":"386",
+  "args":{
+    "BeginNs":"8213691242845763",
+    "EndNs":"8213691243232643",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691242845","dur":"387",
+  "args":{
+    "BeginNs":"8213691242845693",
+    "EndNs":"8213691243232725",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691243599","dur":"1",
+  "args":{
+    "BeginNs":"8213691243599436",
+    "EndNs":"8213691243599437",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691243602","dur":"1",
+  "args":{
+    "BeginNs":"8213691243602963",
+    "EndNs":"8213691243602964",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691243603","dur":"387",
+  "args":{
+    "BeginNs":"8213691243603032",
+    "EndNs":"8213691243990304",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691243599","dur":"390",
+  "args":{
+    "BeginNs":"8213691243599817",
+    "EndNs":"8213691243990444",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691243599","dur":"390",
+  "args":{
+    "BeginNs":"8213691243599736",
+    "EndNs":"8213691243990515",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691244353","dur":"1",
+  "args":{
+    "BeginNs":"8213691244353690",
+    "EndNs":"8213691244353691",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691244357","dur":"1",
+  "args":{
+    "BeginNs":"8213691244357267",
+    "EndNs":"8213691244357268",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691244357","dur":"377",
+  "args":{
+    "BeginNs":"8213691244357347",
+    "EndNs":"8213691244734488",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691244354","dur":"380",
+  "args":{
+    "BeginNs":"8213691244354050",
+    "EndNs":"8213691244734639",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691244353","dur":"380",
+  "args":{
+    "BeginNs":"8213691244353970",
+    "EndNs":"8213691244734730",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691245249","dur":"1",
+  "args":{
+    "BeginNs":"8213691245249050",
+    "EndNs":"8213691245249051",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691245253","dur":"1",
+  "args":{
+    "BeginNs":"8213691245253168",
+    "EndNs":"8213691245253169",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691245253","dur":"380",
+  "args":{
+    "BeginNs":"8213691245253238",
+    "EndNs":"8213691245633245",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691245249","dur":"383",
+  "args":{
+    "BeginNs":"8213691245249491",
+    "EndNs":"8213691245633385",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691245249","dur":"384",
+  "args":{
+    "BeginNs":"8213691245249421",
+    "EndNs":"8213691245633467",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691246002","dur":"1",
+  "args":{
+    "BeginNs":"8213691246002662",
+    "EndNs":"8213691246002663",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691246006","dur":"1",
+  "args":{
+    "BeginNs":"8213691246006530",
+    "EndNs":"8213691246006531",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691246006","dur":"381",
+  "args":{
+    "BeginNs":"8213691246006610",
+    "EndNs":"8213691246388361",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691246003","dur":"385",
+  "args":{
+    "BeginNs":"8213691246003053",
+    "EndNs":"8213691246388511",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691246002","dur":"385",
+  "args":{
+    "BeginNs":"8213691246002983",
+    "EndNs":"8213691246388592",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691246752","dur":"1",
+  "args":{
+    "BeginNs":"8213691246752869",
+    "EndNs":"8213691246752870",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691246756","dur":"1",
+  "args":{
+    "BeginNs":"8213691246756465",
+    "EndNs":"8213691246756466",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691246756","dur":"383",
+  "args":{
+    "BeginNs":"8213691246756546",
+    "EndNs":"8213691247139809",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691246753","dur":"387",
+  "args":{
+    "BeginNs":"8213691246753199",
+    "EndNs":"8213691247140440",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691246753","dur":"387",
+  "args":{
+    "BeginNs":"8213691246753139",
+    "EndNs":"8213691247140522",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691247505","dur":"1",
+  "args":{
+    "BeginNs":"8213691247505720",
+    "EndNs":"8213691247505721",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691247512","dur":"1",
+  "args":{
+    "BeginNs":"8213691247512432",
+    "EndNs":"8213691247512433",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691247512","dur":"385",
+  "args":{
+    "BeginNs":"8213691247512533",
+    "EndNs":"8213691247897670",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691247506","dur":"391",
+  "args":{
+    "BeginNs":"8213691247506011",
+    "EndNs":"8213691247897790",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691247505","dur":"391",
+  "args":{
+    "BeginNs":"8213691247505940",
+    "EndNs":"8213691247897871",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691248267","dur":"1",
+  "args":{
+    "BeginNs":"8213691248267348",
+    "EndNs":"8213691248267349",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691248271","dur":"1",
+  "args":{
+    "BeginNs":"8213691248271525",
+    "EndNs":"8213691248271526",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691248271","dur":"377",
+  "args":{
+    "BeginNs":"8213691248271596",
+    "EndNs":"8213691248648788",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691248267","dur":"381",
+  "args":{
+    "BeginNs":"8213691248267729",
+    "EndNs":"8213691248648928",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691248267","dur":"381",
+  "args":{
+    "BeginNs":"8213691248267648",
+    "EndNs":"8213691248649009",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691249015","dur":"1",
+  "args":{
+    "BeginNs":"8213691249015560",
+    "EndNs":"8213691249015561",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691249019","dur":"1",
+  "args":{
+    "BeginNs":"8213691249019227",
+    "EndNs":"8213691249019228",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691249019","dur":"376",
+  "args":{
+    "BeginNs":"8213691249019327",
+    "EndNs":"8213691249396059",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691249015","dur":"380",
+  "args":{
+    "BeginNs":"8213691249015951",
+    "EndNs":"8213691249396189",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691249015","dur":"380",
+  "args":{
+    "BeginNs":"8213691249015861",
+    "EndNs":"8213691249396270",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691249757","dur":"1",
+  "args":{
+    "BeginNs":"8213691249757240",
+    "EndNs":"8213691249757241",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691249760","dur":"1",
+  "args":{
+    "BeginNs":"8213691249760617",
+    "EndNs":"8213691249760618",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691249760","dur":"382",
+  "args":{
+    "BeginNs":"8213691249760697",
+    "EndNs":"8213691250142878",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691249757","dur":"385",
+  "args":{
+    "BeginNs":"8213691249757611",
+    "EndNs":"8213691250143049",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691249757","dur":"385",
+  "args":{
+    "BeginNs":"8213691249757541",
+    "EndNs":"8213691250143140",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691250508","dur":"1",
+  "args":{
+    "BeginNs":"8213691250508568",
+    "EndNs":"8213691250508569",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691250512","dur":"1",
+  "args":{
+    "BeginNs":"8213691250512075",
+    "EndNs":"8213691250512076",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691250512","dur":"380",
+  "args":{
+    "BeginNs":"8213691250512145",
+    "EndNs":"8213691250892553",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691250508","dur":"383",
+  "args":{
+    "BeginNs":"8213691250508969",
+    "EndNs":"8213691250892684",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691250508","dur":"383",
+  "args":{
+    "BeginNs":"8213691250508899",
+    "EndNs":"8213691250892765",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691251263","dur":"1",
+  "args":{
+    "BeginNs":"8213691251263954",
+    "EndNs":"8213691251263955",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691251267","dur":"1",
+  "args":{
+    "BeginNs":"8213691251267581",
+    "EndNs":"8213691251267582",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691251267","dur":"380",
+  "args":{
+    "BeginNs":"8213691251267661",
+    "EndNs":"8213691251648280",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691251264","dur":"384",
+  "args":{
+    "BeginNs":"8213691251264325",
+    "EndNs":"8213691251648410",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691251264","dur":"384",
+  "args":{
+    "BeginNs":"8213691251264225",
+    "EndNs":"8213691251648492",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691252015","dur":"1",
+  "args":{
+    "BeginNs":"8213691252015584",
+    "EndNs":"8213691252015585",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691252021","dur":"1",
+  "args":{
+    "BeginNs":"8213691252021515",
+    "EndNs":"8213691252021516",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691252021","dur":"382",
+  "args":{
+    "BeginNs":"8213691252021605",
+    "EndNs":"8213691252403666",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691252018","dur":"385",
+  "args":{
+    "BeginNs":"8213691252018178",
+    "EndNs":"8213691252403796",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691252018","dur":"385",
+  "args":{
+    "BeginNs":"8213691252018098",
+    "EndNs":"8213691252403878",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691252765","dur":"1",
+  "args":{
+    "BeginNs":"8213691252765299",
+    "EndNs":"8213691252765300",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691252768","dur":"1",
+  "args":{
+    "BeginNs":"8213691252768886",
+    "EndNs":"8213691252768887",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691252768","dur":"381",
+  "args":{
+    "BeginNs":"8213691252768956",
+    "EndNs":"8213691253150807",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691252765","dur":"385",
+  "args":{
+    "BeginNs":"8213691252765689",
+    "EndNs":"8213691253150947",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691252765","dur":"385",
+  "args":{
+    "BeginNs":"8213691252765589",
+    "EndNs":"8213691253151038",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691253516","dur":"1",
+  "args":{
+    "BeginNs":"8213691253516216",
+    "EndNs":"8213691253516217",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691253519","dur":"1",
+  "args":{
+    "BeginNs":"8213691253519743",
+    "EndNs":"8213691253519744",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691253519","dur":"379",
+  "args":{
+    "BeginNs":"8213691253519813",
+    "EndNs":"8213691253899560",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691253516","dur":"383",
+  "args":{
+    "BeginNs":"8213691253516567",
+    "EndNs":"8213691253899710",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691253516","dur":"383",
+  "args":{
+    "BeginNs":"8213691253516497",
+    "EndNs":"8213691253899802",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691254272","dur":"1",
+  "args":{
+    "BeginNs":"8213691254272153",
+    "EndNs":"8213691254272154",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691254275","dur":"1",
+  "args":{
+    "BeginNs":"8213691254275840",
+    "EndNs":"8213691254275841",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691254275","dur":"379",
+  "args":{
+    "BeginNs":"8213691254275911",
+    "EndNs":"8213691254655297",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691254272","dur":"382",
+  "args":{
+    "BeginNs":"8213691254272474",
+    "EndNs":"8213691254655447",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691254272","dur":"383",
+  "args":{
+    "BeginNs":"8213691254272404",
+    "EndNs":"8213691254655528",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691255021","dur":"1",
+  "args":{
+    "BeginNs":"8213691255021408",
+    "EndNs":"8213691255021409",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691255024","dur":"1",
+  "args":{
+    "BeginNs":"8213691255024914",
+    "EndNs":"8213691255024915",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691255024","dur":"376",
+  "args":{
+    "BeginNs":"8213691255024985",
+    "EndNs":"8213691255401916",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691255021","dur":"380",
+  "args":{
+    "BeginNs":"8213691255021788",
+    "EndNs":"8213691255402086",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691255021","dur":"380",
+  "args":{
+    "BeginNs":"8213691255021688",
+    "EndNs":"8213691255402167",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691255764","dur":"1",
+  "args":{
+    "BeginNs":"8213691255764841",
+    "EndNs":"8213691255764842",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691255768","dur":"1",
+  "args":{
+    "BeginNs":"8213691255768257",
+    "EndNs":"8213691255768258",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691255768","dur":"476",
+  "args":{
+    "BeginNs":"8213691255768338",
+    "EndNs":"8213691256244677",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691255765","dur":"479",
+  "args":{
+    "BeginNs":"8213691255765122",
+    "EndNs":"8213691256244827",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691255765","dur":"479",
+  "args":{
+    "BeginNs":"8213691255765062",
+    "EndNs":"8213691256244928",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+,{"ph":"X","name":"before hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691256613","dur":"1",
+  "args":{
+    "BeginNs":"8213691256613774",
+    "EndNs":"8213691256613775",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"before hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"after hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691256617","dur":"1",
+  "args":{
+    "BeginNs":"8213691256617741",
+    "EndNs":"8213691256617742",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"after hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipMemcpy","pid":"0","tid":"4187580","ts":"8213691256617","dur":"384",
+  "args":{
+    "BeginNs":"8213691256617811",
+    "EndNs":"8213691257002648",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipMemcpy"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel","pid":"0","tid":"4187580","ts":"8213691256614","dur":"388",
+  "args":{
+    "BeginNs":"8213691256614194",
+    "EndNs":"8213691257002818",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel"
+  }
+}
+,{"ph":"X","name":"hipLaunchKernel range","pid":"0","tid":"0","ts":"8213691256614","dur":"388",
+  "args":{
+    "BeginNs":"8213691256614114",
+    "EndNs":"8213691257002899",
+    "pid":"4187580",
+    "tid":"4187580",
+    "Name":"hipLaunchKernel range"
+  }
+}
+],
+"otherData": {
+    "CMD": "rocminfo",
+    "HSASystemAttributes.RuntimeVersion": "1.1",
+    "HSASystemAttributes.SystemTimestampFreq.": "1000.000000MHz",
+    "HSASystemAttributes.Sig.MaxWaitDuration": "18446744073709551615(0xFFFFFFFFFFFFFFFF)(timestampcount)",
+    "HSASystemAttributes.MachineModel": "LARGE",
+    "HSASystemAttributes.SystemEndianness": "LITTLE",
+    "Agent1.Name": "AMDEPYC7V1364-CoreProcessor",
+    "Agent1.Uuid": "CPU-XX",
+    "Agent1.MarketingName": "AMDEPYC7V1364-CoreProcessor",
+    "Agent1.VendorName": "CPU",
+    "Agent1.Feature": "Nonespecified",
+    "Agent1.Profile": "FULL_PROFILE",
+    "Agent1.FloatRoundMode": "NEAR",
+    "Agent1.MaxQueueNumber": "0(0x0)",
+    "Agent1.QueueMinSize": "0(0x0)",
+    "Agent1.QueueMaxSize": "0(0x0)",
+    "Agent1.QueueType": "MULTI",
+    "Agent1.Node": "0",
+    "Agent1.DeviceType": "CPU",
+    "Agent1.CacheInfo.L1": "32768(0x8000)KB",
+    "Agent1.ChipID": "0(0x0)",
+    "Agent1.ASICRevision": "0(0x0)",
+    "Agent1.CachelineSize": "64(0x40)",
+    "Agent1.MaxClockFreq.(MHz)": "2450",
+    "Agent1.BDFID": "0",
+    "Agent1.InternalNodeID": "0",
+    "Agent1.ComputeUnit": "64",
+    "Agent1.SIMDsperCU": "0",
+    "Agent1.ShaderEngines": "0",
+    "Agent1.ShaderArrs.perEng.": "0",
+    "Agent1.WatchPtsonAddr.Ranges": "1",
+    "Agent1.Features": "None",
+    "Agent1.PoolInfo.Pool1.Segment": "GLOBAL",
+    "Agent1.PoolInfo.Pool1.FLAGS": "FINEGRAINED",
+    "Agent1.PoolInfo.Pool1.Size": "263478800(0xfb45e10)KB",
+    "Agent1.PoolInfo.Pool1.Allocatable": "TRUE",
+    "Agent1.PoolInfo.Pool1.AllocGranule": "4KB",
+    "Agent1.PoolInfo.Pool1.AllocAlignment": "4KB",
+    "Agent1.PoolInfo.Pool1.Accessiblebyall": "TRUE",
+    "Agent1.PoolInfo.Pool2.Segment": "GLOBAL",
+    "Agent1.PoolInfo.Pool2.FLAGS": "KERNARG,FINEGRAINED",
+    "Agent1.PoolInfo.Pool2.Size": "263478800(0xfb45e10)KB",
+    "Agent1.PoolInfo.Pool2.Allocatable": "TRUE",
+    "Agent1.PoolInfo.Pool2.AllocGranule": "4KB",
+    "Agent1.PoolInfo.Pool2.AllocAlignment": "4KB",
+    "Agent1.PoolInfo.Pool2.Accessiblebyall": "TRUE",
+    "Agent1.PoolInfo.Pool3.Segment": "GLOBAL",
+    "Agent1.PoolInfo.Pool3.FLAGS": "COARSEGRAINED",
+    "Agent1.PoolInfo.Pool3.Size": "263478800(0xfb45e10)KB",
+    "Agent1.PoolInfo.Pool3.Allocatable": "TRUE",
+    "Agent1.PoolInfo.Pool3.AllocGranule": "4KB",
+    "Agent1.PoolInfo.Pool3.AllocAlignment": "4KB",
+    "Agent1.PoolInfo.Pool3.Accessiblebyall": "TRUE",
+    "Agent2.Name": "AMDEPYC7V1364-CoreProcessor",
+    "Agent2.Uuid": "CPU-XX",
+    "Agent2.MarketingName": "AMDEPYC7V1364-CoreProcessor",
+    "Agent2.VendorName": "CPU",
+    "Agent2.Feature": "Nonespecified",
+    "Agent2.Profile": "FULL_PROFILE",
+    "Agent2.FloatRoundMode": "NEAR",
+    "Agent2.MaxQueueNumber": "0(0x0)",
+    "Agent2.QueueMinSize": "0(0x0)",
+    "Agent2.QueueMaxSize": "0(0x0)",
+    "Agent2.QueueType": "MULTI",
+    "Agent2.Node": "1",
+    "Agent2.DeviceType": "CPU",
+    "Agent2.CacheInfo.L1": "32768(0x8000)KB",
+    "Agent2.ChipID": "0(0x0)",
+    "Agent2.ASICRevision": "0(0x0)",
+    "Agent2.CachelineSize": "64(0x40)",
+    "Agent2.MaxClockFreq.(MHz)": "2450",
+    "Agent2.BDFID": "0",
+    "Agent2.InternalNodeID": "1",
+    "Agent2.ComputeUnit": "64",
+    "Agent2.SIMDsperCU": "0",
+    "Agent2.ShaderEngines": "0",
+    "Agent2.ShaderArrs.perEng.": "0",
+    "Agent2.WatchPtsonAddr.Ranges": "1",
+    "Agent2.Features": "None",
+    "Agent2.PoolInfo.Pool1.Segment": "GLOBAL",
+    "Agent2.PoolInfo.Pool1.FLAGS": "FINEGRAINED",
+    "Agent2.PoolInfo.Pool1.Size": "264172236(0xfbef2cc)KB",
+    "Agent2.PoolInfo.Pool1.Allocatable": "TRUE",
+    "Agent2.PoolInfo.Pool1.AllocGranule": "4KB",
+    "Agent2.PoolInfo.Pool1.AllocAlignment": "4KB",
+    "Agent2.PoolInfo.Pool1.Accessiblebyall": "TRUE",
+    "Agent2.PoolInfo.Pool2.Segment": "GLOBAL",
+    "Agent2.PoolInfo.Pool2.FLAGS": "KERNARG,FINEGRAINED",
+    "Agent2.PoolInfo.Pool2.Size": "264172236(0xfbef2cc)KB",
+    "Agent2.PoolInfo.Pool2.Allocatable": "TRUE",
+    "Agent2.PoolInfo.Pool2.AllocGranule": "4KB",
+    "Agent2.PoolInfo.Pool2.AllocAlignment": "4KB",
+    "Agent2.PoolInfo.Pool2.Accessiblebyall": "TRUE",
+    "Agent2.PoolInfo.Pool3.Segment": "GLOBAL",
+    "Agent2.PoolInfo.Pool3.FLAGS": "COARSEGRAINED",
+    "Agent2.PoolInfo.Pool3.Size": "264172236(0xfbef2cc)KB",
+    "Agent2.PoolInfo.Pool3.Allocatable": "TRUE",
+    "Agent2.PoolInfo.Pool3.AllocGranule": "4KB",
+    "Agent2.PoolInfo.Pool3.AllocAlignment": "4KB",
+    "Agent2.PoolInfo.Pool3.Accessiblebyall": "TRUE",
+    "Agent3.Name": "gfx908",
+    "Agent3.Uuid": "GPU-e2abaca2f842a074",
+    "Agent3.MarketingName.VendorName": "AMD",
+    "Agent3.MarketingName.Feature": "KERNEL_DISPATCH",
+    "Agent3.MarketingName.Profile": "BASE_PROFILE",
+    "Agent3.MarketingName.FloatRoundMode": "NEAR",
+    "Agent3.MarketingName.MaxQueueNumber": "128(0x80)",
+    "Agent3.MarketingName.QueueMinSize": "64(0x40)",
+    "Agent3.MarketingName.QueueMaxSize": "131072(0x20000)",
+    "Agent3.MarketingName.QueueType": "MULTI",
+    "Agent3.MarketingName.Node": "2",
+    "Agent3.MarketingName.DeviceType": "GPU",
+    "Agent3.MarketingName.CacheInfo.L1": "16(0x10)KB",
+    "Agent3.MarketingName.CacheInfo.L2": "8192(0x2000)KB",
+    "Agent3.MarketingName.ChipID": "29580(0x738c)",
+    "Agent3.MarketingName.ASICRevision": "2(0x2)",
+    "Agent3.MarketingName.CachelineSize": "64(0x40)",
+    "Agent3.MarketingName.MaxClockFreq.(MHz)": "1502",
+    "Agent3.MarketingName.BDFID": "58112",
+    "Agent3.MarketingName.InternalNodeID": "2",
+    "Agent3.MarketingName.ComputeUnit": "120",
+    "Agent3.MarketingName.SIMDsperCU": "4",
+    "Agent3.MarketingName.ShaderEngines": "8",
+    "Agent3.MarketingName.ShaderArrs.perEng.": "1",
+    "Agent3.MarketingName.WatchPtsonAddr.Ranges": "4",
+    "Agent3.MarketingName.Features": "KERNEL_DISPATCH",
+    "Agent3.MarketingName.FastF16Operation": "TRUE",
+    "Agent3.MarketingName.WavefrontSize": "64(0x40)",
+    "Agent3.MarketingName.WorkgroupMaxSize": "1024(0x400)",
+    "Agent3.MarketingName.WorkgroupMaxSizeperDimension.x": "1024(0x400)",
+    "Agent3.MarketingName.WorkgroupMaxSizeperDimension.y": "1024(0x400)",
+    "Agent3.MarketingName.WorkgroupMaxSizeperDimension.z": "1024(0x400)",
+    "Agent3.MarketingName.MaxWavesPerCU": "40(0x28)",
+    "Agent3.MarketingName.MaxWork-itemPerCU": "2560(0xa00)",
+    "Agent3.MarketingName.GridMaxSize": "4294967295(0xffffffff)",
+    "Agent3.MarketingName.GridMaxSizeperDimension.x": "4294967295(0xffffffff)",
+    "Agent3.MarketingName.GridMaxSizeperDimension.y": "4294967295(0xffffffff)",
+    "Agent3.MarketingName.GridMaxSizeperDimension.z": "4294967295(0xffffffff)",
+    "Agent3.MarketingName.Maxfbarriers/Workgrp": "32",
+    "Agent3.MarketingName.PoolInfo.Pool1.Segment": "GLOBAL",
+    "Agent3.MarketingName.PoolInfo.Pool1.FLAGS": "COARSEGRAINED",
+    "Agent3.MarketingName.PoolInfo.Pool1.Size": "33538048(0x1ffc000)KB",
+    "Agent3.MarketingName.PoolInfo.Pool1.Allocatable": "TRUE",
+    "Agent3.MarketingName.PoolInfo.Pool1.AllocGranule": "4KB",
+    "Agent3.MarketingName.PoolInfo.Pool1.AllocAlignment": "4KB",
+    "Agent3.MarketingName.PoolInfo.Pool1.Accessiblebyall": "FALSE",
+    "Agent3.MarketingName.PoolInfo.Pool2.Segment": "GLOBAL",
+    "Agent3.MarketingName.PoolInfo.Pool2.FLAGS": "FINEGRAINED",
+    "Agent3.MarketingName.PoolInfo.Pool2.Size": "33538048(0x1ffc000)KB",
+    "Agent3.MarketingName.PoolInfo.Pool2.Allocatable": "TRUE",
+    "Agent3.MarketingName.PoolInfo.Pool2.AllocGranule": "4KB",
+    "Agent3.MarketingName.PoolInfo.Pool2.AllocAlignment": "4KB",
+    "Agent3.MarketingName.PoolInfo.Pool2.Accessiblebyall": "FALSE",
+    "Agent3.MarketingName.PoolInfo.Pool3.Segment": "GROUP",
+    "Agent3.MarketingName.PoolInfo.Pool3.Size": "64(0x40)KB",
+    "Agent3.MarketingName.PoolInfo.Pool3.Allocatable": "FALSE",
+    "Agent3.MarketingName.PoolInfo.Pool3.AllocGranule": "0KB",
+    "Agent3.MarketingName.PoolInfo.Pool3.AllocAlignment": "0KB",
+    "Agent3.MarketingName.PoolInfo.Pool3.Accessiblebyall": "FALSE",
+    "Agent3.MarketingName.ISAInfo.ISA1.Name:amdgcn-amd-amdhsa--gfx908:sramecc+": "xnack-",
+    "Agent3.MarketingName.ISAInfo.ISA1.MachineModels": "HSA_MACHINE_MODEL_LARGE",
+    "Agent3.MarketingName.ISAInfo.ISA1.Profiles": "HSA_PROFILE_BASE",
+    "Agent3.MarketingName.ISAInfo.ISA1.DefaultRoundingMode": "NEAR",
+    "Agent3.MarketingName.ISAInfo.ISA1.DefaultRoundingMode": "NEAR",
+    "Agent3.MarketingName.ISAInfo.ISA1.Fastf16": "TRUE",
+    "Agent3.MarketingName.ISAInfo.ISA1.WorkgroupMaxSize": "1024(0x400)",
+    "Agent3.MarketingName.ISAInfo.ISA1.WorkgroupMaxSizeperDimension.x": "1024(0x400)",
+    "Agent3.MarketingName.ISAInfo.ISA1.WorkgroupMaxSizeperDimension.y": "1024(0x400)",
+    "Agent3.MarketingName.ISAInfo.ISA1.WorkgroupMaxSizeperDimension.z": "1024(0x400)",
+    "Agent3.MarketingName.ISAInfo.ISA1.GridMaxSize": "4294967295(0xffffffff)",
+    "Agent3.MarketingName.ISAInfo.ISA1.GridMaxSizeperDimension.x": "4294967295(0xffffffff)",
+    "Agent3.MarketingName.ISAInfo.ISA1.GridMaxSizeperDimension.y": "4294967295(0xffffffff)",
+    "Agent3.MarketingName.ISAInfo.ISA1.GridMaxSizeperDimension.z": "4294967295(0xffffffff)",
+    "Agent3.MarketingName.ISAInfo.ISA1.FBarrierMaxSize": "32",
+    "Agent4.Name": "gfx908",
+    "Agent4.Uuid": "GPU-91f643f4852d3465",
+    "Agent4.MarketingName.VendorName": "AMD",
+    "Agent4.MarketingName.Feature": "KERNEL_DISPATCH",
+    "Agent4.MarketingName.Profile": "BASE_PROFILE",
+    "Agent4.MarketingName.FloatRoundMode": "NEAR",
+    "Agent4.MarketingName.MaxQueueNumber": "128(0x80)",
+    "Agent4.MarketingName.QueueMinSize": "64(0x40)",
+    "Agent4.MarketingName.QueueMaxSize": "131072(0x20000)",
+    "Agent4.MarketingName.QueueType": "MULTI",
+    "Agent4.MarketingName.Node": "3",
+    "Agent4.MarketingName.DeviceType": "GPU",
+    "Agent4.MarketingName.CacheInfo.L1": "16(0x10)KB",
+    "Agent4.MarketingName.CacheInfo.L2": "8192(0x2000)KB",
+    "Agent4.MarketingName.ChipID": "29580(0x738c)",
+    "Agent4.MarketingName.ASICRevision": "2(0x2)",
+    "Agent4.MarketingName.CachelineSize": "64(0x40)",
+    "Agent4.MarketingName.MaxClockFreq.(MHz)": "1502",
+    "Agent4.MarketingName.BDFID": "49920",
+    "Agent4.MarketingName.InternalNodeID": "3",
+    "Agent4.MarketingName.ComputeUnit": "120",
+    "Agent4.MarketingName.SIMDsperCU": "4",
+    "Agent4.MarketingName.ShaderEngines": "8",
+    "Agent4.MarketingName.ShaderArrs.perEng.": "1",
+    "Agent4.MarketingName.WatchPtsonAddr.Ranges": "4",
+    "Agent4.MarketingName.Features": "KERNEL_DISPATCH",
+    "Agent4.MarketingName.FastF16Operation": "TRUE",
+    "Agent4.MarketingName.WavefrontSize": "64(0x40)",
+    "Agent4.MarketingName.WorkgroupMaxSize": "1024(0x400)",
+    "Agent4.MarketingName.WorkgroupMaxSizeperDimension.x": "1024(0x400)",
+    "Agent4.MarketingName.WorkgroupMaxSizeperDimension.y": "1024(0x400)",
+    "Agent4.MarketingName.WorkgroupMaxSizeperDimension.z": "1024(0x400)",
+    "Agent4.MarketingName.MaxWavesPerCU": "40(0x28)",
+    "Agent4.MarketingName.MaxWork-itemPerCU": "2560(0xa00)",
+    "Agent4.MarketingName.GridMaxSize": "4294967295(0xffffffff)",
+    "Agent4.MarketingName.GridMaxSizeperDimension.x": "4294967295(0xffffffff)",
+    "Agent4.MarketingName.GridMaxSizeperDimension.y": "4294967295(0xffffffff)",
+    "Agent4.MarketingName.GridMaxSizeperDimension.z": "4294967295(0xffffffff)",
+    "Agent4.MarketingName.Maxfbarriers/Workgrp": "32",
+    "Agent4.MarketingName.PoolInfo.Pool1.Segment": "GLOBAL",
+    "Agent4.MarketingName.PoolInfo.Pool1.FLAGS": "COARSEGRAINED",
+    "Agent4.MarketingName.PoolInfo.Pool1.Size": "33538048(0x1ffc000)KB",
+    "Agent4.MarketingName.PoolInfo.Pool1.Allocatable": "TRUE",
+    "Agent4.MarketingName.PoolInfo.Pool1.AllocGranule": "4KB",
+    "Agent4.MarketingName.PoolInfo.Pool1.AllocAlignment": "4KB",
+    "Agent4.MarketingName.PoolInfo.Pool1.Accessiblebyall": "FALSE",
+    "Agent4.MarketingName.PoolInfo.Pool2.Segment": "GLOBAL",
+    "Agent4.MarketingName.PoolInfo.Pool2.FLAGS": "FINEGRAINED",
+    "Agent4.MarketingName.PoolInfo.Pool2.Size": "33538048(0x1ffc000)KB",
+    "Agent4.MarketingName.PoolInfo.Pool2.Allocatable": "TRUE",
+    "Agent4.MarketingName.PoolInfo.Pool2.AllocGranule": "4KB",
+    "Agent4.MarketingName.PoolInfo.Pool2.AllocAlignment": "4KB",
+    "Agent4.MarketingName.PoolInfo.Pool2.Accessiblebyall": "FALSE",
+    "Agent4.MarketingName.PoolInfo.Pool3.Segment": "GROUP",
+    "Agent4.MarketingName.PoolInfo.Pool3.Size": "64(0x40)KB",
+    "Agent4.MarketingName.PoolInfo.Pool3.Allocatable": "FALSE",
+    "Agent4.MarketingName.PoolInfo.Pool3.AllocGranule": "0KB",
+    "Agent4.MarketingName.PoolInfo.Pool3.AllocAlignment": "0KB",
+    "Agent4.MarketingName.PoolInfo.Pool3.Accessiblebyall": "FALSE",
+    "Agent4.MarketingName.ISAInfo.ISA1.Name:amdgcn-amd-amdhsa--gfx908:sramecc+": "xnack-",
+    "Agent4.MarketingName.ISAInfo.ISA1.MachineModels": "HSA_MACHINE_MODEL_LARGE",
+    "Agent4.MarketingName.ISAInfo.ISA1.Profiles": "HSA_PROFILE_BASE",
+    "Agent4.MarketingName.ISAInfo.ISA1.DefaultRoundingMode": "NEAR",
+    "Agent4.MarketingName.ISAInfo.ISA1.DefaultRoundingMode": "NEAR",
+    "Agent4.MarketingName.ISAInfo.ISA1.Fastf16": "TRUE",
+    "Agent4.MarketingName.ISAInfo.ISA1.WorkgroupMaxSize": "1024(0x400)",
+    "Agent4.MarketingName.ISAInfo.ISA1.WorkgroupMaxSizeperDimension.x": "1024(0x400)",
+    "Agent4.MarketingName.ISAInfo.ISA1.WorkgroupMaxSizeperDimension.y": "1024(0x400)",
+    "Agent4.MarketingName.ISAInfo.ISA1.WorkgroupMaxSizeperDimension.z": "1024(0x400)",
+    "Agent4.MarketingName.ISAInfo.ISA1.GridMaxSize": "4294967295(0xffffffff)",
+    "Agent4.MarketingName.ISAInfo.ISA1.GridMaxSizeperDimension.x": "4294967295(0xffffffff)",
+    "Agent4.MarketingName.ISAInfo.ISA1.GridMaxSizeperDimension.y": "4294967295(0xffffffff)",
+    "Agent4.MarketingName.ISAInfo.ISA1.GridMaxSizeperDimension.z": "4294967295(0xffffffff)",
+    "Agent4.MarketingName.ISAInfo.ISA1.FBarrierMaxSize": "32",
+    "Agent5.Name": "gfx908",
+    "Agent5.Uuid": "GPU-23321759a0233428",
+    "Agent5.MarketingName.VendorName": "AMD",
+    "Agent5.MarketingName.Feature": "KERNEL_DISPATCH",
+    "Agent5.MarketingName.Profile": "BASE_PROFILE",
+    "Agent5.MarketingName.FloatRoundMode": "NEAR",
+    "Agent5.MarketingName.MaxQueueNumber": "128(0x80)",
+    "Agent5.MarketingName.QueueMinSize": "64(0x40)",
+    "Agent5.MarketingName.QueueMaxSize": "131072(0x20000)",
+    "Agent5.MarketingName.QueueType": "MULTI",
+    "Agent5.MarketingName.Node": "4",
+    "Agent5.MarketingName.DeviceType": "GPU",
+    "Agent5.MarketingName.CacheInfo.L1": "16(0x10)KB",
+    "Agent5.MarketingName.CacheInfo.L2": "8192(0x2000)KB",
+    "Agent5.MarketingName.ChipID": "29580(0x738c)",
+    "Agent5.MarketingName.ASICRevision": "2(0x2)",
+    "Agent5.MarketingName.CachelineSize": "64(0x40)",
+    "Agent5.MarketingName.MaxClockFreq.(MHz)": "1502",
+    "Agent5.MarketingName.BDFID": "41728",
+    "Agent5.MarketingName.InternalNodeID": "4",
+    "Agent5.MarketingName.ComputeUnit": "120",
+    "Agent5.MarketingName.SIMDsperCU": "4",
+    "Agent5.MarketingName.ShaderEngines": "8",
+    "Agent5.MarketingName.ShaderArrs.perEng.": "1",
+    "Agent5.MarketingName.WatchPtsonAddr.Ranges": "4",
+    "Agent5.MarketingName.Features": "KERNEL_DISPATCH",
+    "Agent5.MarketingName.FastF16Operation": "TRUE",
+    "Agent5.MarketingName.WavefrontSize": "64(0x40)",
+    "Agent5.MarketingName.WorkgroupMaxSize": "1024(0x400)",
+    "Agent5.MarketingName.WorkgroupMaxSizeperDimension.x": "1024(0x400)",
+    "Agent5.MarketingName.WorkgroupMaxSizeperDimension.y": "1024(0x400)",
+    "Agent5.MarketingName.WorkgroupMaxSizeperDimension.z": "1024(0x400)",
+    "Agent5.MarketingName.MaxWavesPerCU": "40(0x28)",
+    "Agent5.MarketingName.MaxWork-itemPerCU": "2560(0xa00)",
+    "Agent5.MarketingName.GridMaxSize": "4294967295(0xffffffff)",
+    "Agent5.MarketingName.GridMaxSizeperDimension.x": "4294967295(0xffffffff)",
+    "Agent5.MarketingName.GridMaxSizeperDimension.y": "4294967295(0xffffffff)",
+    "Agent5.MarketingName.GridMaxSizeperDimension.z": "4294967295(0xffffffff)",
+    "Agent5.MarketingName.Maxfbarriers/Workgrp": "32",
+    "Agent5.MarketingName.PoolInfo.Pool1.Segment": "GLOBAL",
+    "Agent5.MarketingName.PoolInfo.Pool1.FLAGS": "COARSEGRAINED",
+    "Agent5.MarketingName.PoolInfo.Pool1.Size": "33538048(0x1ffc000)KB",
+    "Agent5.MarketingName.PoolInfo.Pool1.Allocatable": "TRUE",
+    "Agent5.MarketingName.PoolInfo.Pool1.AllocGranule": "4KB",
+    "Agent5.MarketingName.PoolInfo.Pool1.AllocAlignment": "4KB",
+    "Agent5.MarketingName.PoolInfo.Pool1.Accessiblebyall": "FALSE",
+    "Agent5.MarketingName.PoolInfo.Pool2.Segment": "GLOBAL",
+    "Agent5.MarketingName.PoolInfo.Pool2.FLAGS": "FINEGRAINED",
+    "Agent5.MarketingName.PoolInfo.Pool2.Size": "33538048(0x1ffc000)KB",
+    "Agent5.MarketingName.PoolInfo.Pool2.Allocatable": "TRUE",
+    "Agent5.MarketingName.PoolInfo.Pool2.AllocGranule": "4KB",
+    "Agent5.MarketingName.PoolInfo.Pool2.AllocAlignment": "4KB",
+    "Agent5.MarketingName.PoolInfo.Pool2.Accessiblebyall": "FALSE",
+    "Agent5.MarketingName.PoolInfo.Pool3.Segment": "GROUP",
+    "Agent5.MarketingName.PoolInfo.Pool3.Size": "64(0x40)KB",
+    "Agent5.MarketingName.PoolInfo.Pool3.Allocatable": "FALSE",
+    "Agent5.MarketingName.PoolInfo.Pool3.AllocGranule": "0KB",
+    "Agent5.MarketingName.PoolInfo.Pool3.AllocAlignment": "0KB",
+    "Agent5.MarketingName.PoolInfo.Pool3.Accessiblebyall": "FALSE",
+    "Agent5.MarketingName.ISAInfo.ISA1.Name:amdgcn-amd-amdhsa--gfx908:sramecc+": "xnack-",
+    "Agent5.MarketingName.ISAInfo.ISA1.MachineModels": "HSA_MACHINE_MODEL_LARGE",
+    "Agent5.MarketingName.ISAInfo.ISA1.Profiles": "HSA_PROFILE_BASE",
+    "Agent5.MarketingName.ISAInfo.ISA1.DefaultRoundingMode": "NEAR",
+    "Agent5.MarketingName.ISAInfo.ISA1.DefaultRoundingMode": "NEAR",
+    "Agent5.MarketingName.ISAInfo.ISA1.Fastf16": "TRUE",
+    "Agent5.MarketingName.ISAInfo.ISA1.WorkgroupMaxSize": "1024(0x400)",
+    "Agent5.MarketingName.ISAInfo.ISA1.WorkgroupMaxSizeperDimension.x": "1024(0x400)",
+    "Agent5.MarketingName.ISAInfo.ISA1.WorkgroupMaxSizeperDimension.y": "1024(0x400)",
+    "Agent5.MarketingName.ISAInfo.ISA1.WorkgroupMaxSizeperDimension.z": "1024(0x400)",
+    "Agent5.MarketingName.ISAInfo.ISA1.GridMaxSize": "4294967295(0xffffffff)",
+    "Agent5.MarketingName.ISAInfo.ISA1.GridMaxSizeperDimension.x": "4294967295(0xffffffff)",
+    "Agent5.MarketingName.ISAInfo.ISA1.GridMaxSizeperDimension.y": "4294967295(0xffffffff)",
+    "Agent5.MarketingName.ISAInfo.ISA1.GridMaxSizeperDimension.z": "4294967295(0xffffffff)",
+    "Agent5.MarketingName.ISAInfo.ISA1.FBarrierMaxSize": "32",
+    "Agent6.Name": "gfx908",
+    "Agent6.Uuid": "GPU-bb50b9a965633f37",
+    "Agent6.MarketingName.VendorName": "AMD",
+    "Agent6.MarketingName.Feature": "KERNEL_DISPATCH",
+    "Agent6.MarketingName.Profile": "BASE_PROFILE",
+    "Agent6.MarketingName.FloatRoundMode": "NEAR",
+    "Agent6.MarketingName.MaxQueueNumber": "128(0x80)",
+    "Agent6.MarketingName.QueueMinSize": "64(0x40)",
+    "Agent6.MarketingName.QueueMaxSize": "131072(0x20000)",
+    "Agent6.MarketingName.QueueType": "MULTI",
+    "Agent6.MarketingName.Node": "5",
+    "Agent6.MarketingName.DeviceType": "GPU",
+    "Agent6.MarketingName.CacheInfo.L1": "16(0x10)KB",
+    "Agent6.MarketingName.CacheInfo.L2": "8192(0x2000)KB",
+    "Agent6.MarketingName.ChipID": "29580(0x738c)",
+    "Agent6.MarketingName.ASICRevision": "2(0x2)",
+    "Agent6.MarketingName.CachelineSize": "64(0x40)",
+    "Agent6.MarketingName.MaxClockFreq.(MHz)": "1502",
+    "Agent6.MarketingName.BDFID": "33536",
+    "Agent6.MarketingName.InternalNodeID": "5",
+    "Agent6.MarketingName.ComputeUnit": "120",
+    "Agent6.MarketingName.SIMDsperCU": "4",
+    "Agent6.MarketingName.ShaderEngines": "8",
+    "Agent6.MarketingName.ShaderArrs.perEng.": "1",
+    "Agent6.MarketingName.WatchPtsonAddr.Ranges": "4",
+    "Agent6.MarketingName.Features": "KERNEL_DISPATCH",
+    "Agent6.MarketingName.FastF16Operation": "TRUE",
+    "Agent6.MarketingName.WavefrontSize": "64(0x40)",
+    "Agent6.MarketingName.WorkgroupMaxSize": "1024(0x400)",
+    "Agent6.MarketingName.WorkgroupMaxSizeperDimension.x": "1024(0x400)",
+    "Agent6.MarketingName.WorkgroupMaxSizeperDimension.y": "1024(0x400)",
+    "Agent6.MarketingName.WorkgroupMaxSizeperDimension.z": "1024(0x400)",
+    "Agent6.MarketingName.MaxWavesPerCU": "40(0x28)",
+    "Agent6.MarketingName.MaxWork-itemPerCU": "2560(0xa00)",
+    "Agent6.MarketingName.GridMaxSize": "4294967295(0xffffffff)",
+    "Agent6.MarketingName.GridMaxSizeperDimension.x": "4294967295(0xffffffff)",
+    "Agent6.MarketingName.GridMaxSizeperDimension.y": "4294967295(0xffffffff)",
+    "Agent6.MarketingName.GridMaxSizeperDimension.z": "4294967295(0xffffffff)",
+    "Agent6.MarketingName.Maxfbarriers/Workgrp": "32",
+    "Agent6.MarketingName.PoolInfo.Pool1.Segment": "GLOBAL",
+    "Agent6.MarketingName.PoolInfo.Pool1.FLAGS": "COARSEGRAINED",
+    "Agent6.MarketingName.PoolInfo.Pool1.Size": "33538048(0x1ffc000)KB",
+    "Agent6.MarketingName.PoolInfo.Pool1.Allocatable": "TRUE",
+    "Agent6.MarketingName.PoolInfo.Pool1.AllocGranule": "4KB",
+    "Agent6.MarketingName.PoolInfo.Pool1.AllocAlignment": "4KB",
+    "Agent6.MarketingName.PoolInfo.Pool1.Accessiblebyall": "FALSE",
+    "Agent6.MarketingName.PoolInfo.Pool2.Segment": "GLOBAL",
+    "Agent6.MarketingName.PoolInfo.Pool2.FLAGS": "FINEGRAINED",
+    "Agent6.MarketingName.PoolInfo.Pool2.Size": "33538048(0x1ffc000)KB",
+    "Agent6.MarketingName.PoolInfo.Pool2.Allocatable": "TRUE",
+    "Agent6.MarketingName.PoolInfo.Pool2.AllocGranule": "4KB",
+    "Agent6.MarketingName.PoolInfo.Pool2.AllocAlignment": "4KB",
+    "Agent6.MarketingName.PoolInfo.Pool2.Accessiblebyall": "FALSE",
+    "Agent6.MarketingName.PoolInfo.Pool3.Segment": "GROUP",
+    "Agent6.MarketingName.PoolInfo.Pool3.Size": "64(0x40)KB",
+    "Agent6.MarketingName.PoolInfo.Pool3.Allocatable": "FALSE",
+    "Agent6.MarketingName.PoolInfo.Pool3.AllocGranule": "0KB",
+    "Agent6.MarketingName.PoolInfo.Pool3.AllocAlignment": "0KB",
+    "Agent6.MarketingName.PoolInfo.Pool3.Accessiblebyall": "FALSE",
+    "Agent6.MarketingName.ISAInfo.ISA1.Name:amdgcn-amd-amdhsa--gfx908:sramecc+": "xnack-",
+    "Agent6.MarketingName.ISAInfo.ISA1.MachineModels": "HSA_MACHINE_MODEL_LARGE",
+    "Agent6.MarketingName.ISAInfo.ISA1.Profiles": "HSA_PROFILE_BASE",
+    "Agent6.MarketingName.ISAInfo.ISA1.DefaultRoundingMode": "NEAR",
+    "Agent6.MarketingName.ISAInfo.ISA1.DefaultRoundingMode": "NEAR",
+    "Agent6.MarketingName.ISAInfo.ISA1.Fastf16": "TRUE",
+    "Agent6.MarketingName.ISAInfo.ISA1.WorkgroupMaxSize": "1024(0x400)",
+    "Agent6.MarketingName.ISAInfo.ISA1.WorkgroupMaxSizeperDimension.x": "1024(0x400)",
+    "Agent6.MarketingName.ISAInfo.ISA1.WorkgroupMaxSizeperDimension.y": "1024(0x400)",
+    "Agent6.MarketingName.ISAInfo.ISA1.WorkgroupMaxSizeperDimension.z": "1024(0x400)",
+    "Agent6.MarketingName.ISAInfo.ISA1.GridMaxSize": "4294967295(0xffffffff)",
+    "Agent6.MarketingName.ISAInfo.ISA1.GridMaxSizeperDimension.x": "4294967295(0xffffffff)",
+    "Agent6.MarketingName.ISAInfo.ISA1.GridMaxSizeperDimension.y": "4294967295(0xffffffff)",
+    "Agent6.MarketingName.ISAInfo.ISA1.GridMaxSizeperDimension.z": "4294967295(0xffffffff)",
+    "Agent6.MarketingName.ISAInfo.ISA1.FBarrierMaxSize": "32"
+  }
+}

@@ -56,6 +56,8 @@ def profile(unroll):
 
 def main():
     with open('times.csv', 'w') as f:
+        f.write("num_reg,time,KernelName,gpu-id,queue-id,queue-index,pid,tid,grd,wgr,lds,scr,arch_vgpr,accum_vgpr,sgpr,wave_size,sig,obj,Wavefronts,VALUInsts,SALUInsts,SFetchInsts,GDSInsts,VALUBusy,MemUnitStalled,FetchSize,WriteSize\n")
+        
         for i in range(1, 128):
             print(f'Running unrolling {i}')
 

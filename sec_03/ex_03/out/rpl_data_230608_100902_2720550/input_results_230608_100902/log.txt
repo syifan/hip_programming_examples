@@ -1,0 +1,3 @@
+ROCtracer (2720586):
+    HIP-trace(*)
+Matrix multiplication is correct!

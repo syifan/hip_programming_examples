@@ -1,0 +1,2 @@
+"Name","Calls","TotalDurationNs","AverageNs","Percentage"
+"gpu_matrix_multiplication(int*, int*, int*, int)",1,108000,108000,100.0
