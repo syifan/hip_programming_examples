@@ -190,6 +190,7 @@ gamma correction algorithm.
 gamma correction algorithm. This example uses a fixed-sized kernel to reduce 
 the overhead of block dispatching.
 
+<<<<<<< HEAD
 ### Example 3: Image Gamma Correction (Loop Unrolling)
 
 **Path**: [sec_07/ex_03](sec_07/ex_03)
@@ -198,3 +199,31 @@ the overhead of block dispatching.
 
 **Description**: This example demonstrates how to use HIP to implement an image
 gamma correction algorithm. This example uses loop unrolling to hide memory access latency.
+=======
+
+## Section 11: ML with ROCm
+
+### Example 1: PyTorch on ROCm
+
+**Path**: [sec_11/ex_01](sec_11/ex_01)
+
+**Video**: Section 11, Video 1
+
+**Description**: This example demonstrates the application of the PyTorch framework on ROCm, utilizing a pre-trained Inception V3 model for an image classification task. 
+
+### Example 2: Performance Analysis
+
+**Path**: [sec_11/ex_02](sec_11/ex_02)
+
+**Video**: Section 11, Video 1
+
+**Description**: This example highlights the performance analysis of the PyTorch framework on ROCm, leveraging a pre-trained Inception V3 model for an image classification task.
+
+### Example 3: TensorFlow on ROCm
+
+**Path**: [sec_11/ex_03](sec_11/ex_03)
+
+**Video**: Section 11, Video 2
+
+**Description**: This example demonstrates the utilization of the TensorFlow framework on ROCm through a simple deep learning model. 
+>>>>>>> 63b5543a8de1625d73be192f0b7307a2165e5cca
