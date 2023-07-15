@@ -5,23 +5,24 @@ import matplotlib.pyplot as plt
 
 
 class GPUProp:
-    def __init__(self, name, tflops, mem_bw_gBps):
+    def __init__(self, name, freq, tflops, mem_bw_gBps):
         self.name = name
+        self.freq = freq
         self.tflops = tflops
         self.mem_bw_gBps = mem_bw_gBps
 
 
 class KernelProp:
-    def __init__(self, name, flops, bytes):
+    def __init__(self, name, flops, ai):
         self.name = name
         self.flops = flops
-        self.bytes = bytes
+        self.ai = ai
 
 
 gpu_props_table = {
-    "W6800": GPUProp("W6800", 17.82, 512),
-    "MI100": GPUProp("MI100", 23.07, 1229),
-    "MI50": GPUProp("MI50", 13.41, 1024),
+    "W6800": GPUProp("W6800", 2320, 17.82, 512 / 1024),
+    "MI100": GPUProp("MI100", 1502, 23.07, 1229 / 1024),
+    "MI50": GPUProp("MI50", 1746, 13.41, 1024 / 1024),
 }
 
 
@@ -36,7 +37,7 @@ def main():
     rocprof_file = sys.argv[2]
 
     gpu_prop = getGPUProp(gpu_name)
-    kernel_props = getKernelProps(rocprof_file)
+    kernel_props = getKernelProps(rocprof_file, gpu_prop)
 
     plotRoofline(gpu_prop, kernel_props)
 
@@ -51,7 +52,7 @@ def getGPUProp(gpu_name):
     return gpu_props
 
 
-def getKernelProps(rocprof_file):
+def getKernelProps(rocprof_file, gpu_prop):
     df = pd.read_csv(rocprof_file, header=0, sep=",")
 
     # CSV file must have the following columns:
@@ -60,8 +61,12 @@ def getKernelProps(rocprof_file):
         print("Error: CSV file does not have KernelName column.")
         sys.exit(1)
 
-    if "VALIInsts" not in df.columns:
-        print("Error: CSV file does not have VALIInsts column.")
+    if "GRBM_COUNT" not in df.columns:
+        print("Error: CSV file does not have GRBM_COUNT column.")
+        sys.exit(1)
+
+    if "VALUInsts" not in df.columns:
+        print("Error: CSV file does not have VALUInsts column.")
         sys.exit(1)
 
     if "FetchSize" not in df.columns:
@@ -76,29 +81,66 @@ def getKernelProps(rocprof_file):
     for i in range(len(df)):
         row = df.iloc[i]
         kernel_name = row["KernelName"]
-        v_alu_insts = row["VALIInsts"]
-        flops = v_alu_insts * 2
+
+        cycles = row["GRBM_COUNT"]
+        time = cycles / (gpu_prop.freq * 1000 * 1000)
+
+        v_alu_insts = row["VALUInsts"]
+        flop = v_alu_insts * 64 * 2
+        flops = flop / time
 
         fetch_size = row["FetchSize"]
         write_size = row["WriteSize"]
-        bytes = (fetch_size + write_size) * 1024
+        bytes = fetch_size + write_size
+        ai = flop / bytes
 
-        kernel_props.append(KernelProp(kernel_name, flops, bytes))
+        print(
+            f"{kernel_name}: cycles-{cycles} cycles, time-{time}s, FLOP-{flop}, FLOPS-{flops}, memory bytes-{bytes}, AI-{ai}"
+        )
+
+        kernel_props.append(KernelProp(kernel_name, flops, ai))
 
     return kernel_props
 
 
 def plotRoofline(gpu_prop, kernel_props):
-    plt.figure(figsize=(8, 6))
+    fig, ax = plt.subplots()
 
     # Plot the roofline
-    plt.plot(
-        [0, gpu_prop.tflops],
-        [0, gpu_prop.mem_bw_gBps],
+    ax.plot(
+        [0, 64],
+        [gpu_prop.tflops, gpu_prop.tflops],
         color="black",
         linestyle="dashed",
         linewidth=1,
     )
 
+    ax.plot(
+        [0, gpu_prop.tflops / gpu_prop.mem_bw_gBps],
+        [0, gpu_prop.tflops],
+        color="black",
+        linestyle="dashed",
+        linewidth=1,
+    )
+
+    # Plot the kernels
+    for kernel_prop in kernel_props:
+        ai = kernel_prop.ai
+        flops = kernel_prop.flops
+        plt.plot(
+            ai,
+            flops / (1 << 40),
+            marker="o",
+            color="black",
+            markersize=3,
+        )
+
+    ax.set_yscale("log")
+    ax.set_xscale("log")
+
     # Save the plot
-    plt.savefig("roofline.pdf", bbox_inches="tight")
+    fig.savefig("roofline.pdf", bbox_inches="tight")
+
+
+if __name__ == "__main__":
+    main()
